@@ -7,6 +7,10 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_titlescreen</sprite>
+    <sprite>sprites\tempArm</sprite>
+    <sprite>sprites\tempHead</sprite>
+    <sprite>sprites\tempLeg</sprite>
+    <sprite>sprites\tempTorso</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
