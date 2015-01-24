@@ -43,7 +43,7 @@
     <object>objects\obj_creditscreen</object>
     <object>objects\obj_redbar</object>
     <object>objects\obj_greenbar</object>
-    <object>objects\clock</object>
+    <object>objects\obj_clock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>
