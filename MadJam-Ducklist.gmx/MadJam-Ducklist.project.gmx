@@ -21,21 +21,26 @@
   <backgrounds name="background">
     <background>background\bg_grid</background>
     <background>background\bg_sidebar</background>
+    <background>background\bg_red</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_head</object>
     <object>objects\obj_body</object>
-    <object>objects\obj_button1</object>
     <object>objects\obj_button2</object>
+    <object>objects\obj_button1</object>
     <object>objects\obj_button3</object>
     <object>objects\obj_controller</object>
     <object>objects\obj_larm</object>
     <object>objects\obj_lleg</object>
     <object>objects\obj_grid</object>
+    <object>objects\obj_titlescreen</object>
+    <object>objects\obj_creditscreen</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_creditscreen</room>
     <room>rooms\rm_empty</room>
+    <room>rooms\rm_titlescreen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
