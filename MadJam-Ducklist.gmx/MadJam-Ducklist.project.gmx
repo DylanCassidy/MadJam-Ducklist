@@ -15,6 +15,8 @@
     <sprite>sprites\spr_rleg</sprite>
     <sprite>sprites\spr_grid</sprite>
     <sprite>sprites\spr_sidebar</sprite>
+    <sprite>sprites\spr_titlescreen</sprite>
+    <sprite>sprites\spr_creditscreen</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
