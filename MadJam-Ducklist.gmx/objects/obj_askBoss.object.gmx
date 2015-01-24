@@ -25,8 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x,y,obj_testText);
-
+            <string>instance_create(x,y,obj_bossText1);
+instance_create(x,y-65,obj_submit);
+with(obj_askMark){
+    instance_destroy()
+}
 instance_destroy()
 </string>
           </argument>

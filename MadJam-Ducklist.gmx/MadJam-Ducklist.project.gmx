@@ -22,6 +22,7 @@
     <sprite>sprites\spr_tempList</sprite>
     <sprite>sprites\spr_askBoss</sprite>
     <sprite>sprites\spr_askMark</sprite>
+    <sprite>sprites\spr_submit</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
@@ -31,7 +32,7 @@
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\clockFont</font>
-    <font>fonts\statFont</font>
+    <font>fonts\textFont</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_head</object>
@@ -51,9 +52,11 @@
     <objects name="TextObjects">
       <object>objects\obj_testText</object>
       <object>objects\obj_testText2</object>
+      <object>objects\obj_bossText1</object>
     </objects>
     <object>objects\obj_askBoss</object>
     <object>objects\obj_askMark</object>
+    <object>objects\obj_submit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>
