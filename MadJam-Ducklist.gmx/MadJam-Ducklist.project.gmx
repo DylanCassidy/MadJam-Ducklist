@@ -44,6 +44,10 @@
     <object>objects\obj_redbar</object>
     <object>objects\obj_greenbar</object>
     <object>objects\obj_clock</object>
+    <object>objects\object17</object>
+    <object>objects\object18</object>
+    <object>objects\object19</object>
+    <object>objects\object20</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>
