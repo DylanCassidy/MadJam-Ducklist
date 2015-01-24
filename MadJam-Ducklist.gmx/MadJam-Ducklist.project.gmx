@@ -26,6 +26,9 @@
     <background>background\bg_red</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\clockFont</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_head</object>
     <object>objects\obj_body</object>
@@ -40,6 +43,7 @@
     <object>objects\obj_creditscreen</object>
     <object>objects\obj_redbar</object>
     <object>objects\obj_greenbar</object>
+    <object>objects\clock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>
