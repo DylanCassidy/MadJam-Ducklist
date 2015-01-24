@@ -19,6 +19,11 @@
     <sprite>sprites\spr_creditscreen</sprite>
     <sprite>sprites\spr_redbar</sprite>
     <sprite>sprites\spr_greenbar</sprite>
+    <sprite>sprites\spr_pageleft</sprite>
+    <sprite>sprites\spr_pageright</sprite>
+    <sprite>sprites\spr_tmp1</sprite>
+    <sprite>sprites\spr_tmp2</sprite>
+    <sprite>sprites\spr_tmptxt1</sprite>
     <sprite>sprites\spr_tempList</sprite>
     <sprite>sprites\spr_askBoss</sprite>
     <sprite>sprites\spr_askMark</sprite>
@@ -49,6 +54,11 @@
     <object>objects\obj_redbar</object>
     <object>objects\obj_greenbar</object>
     <object>objects\obj_clock</object>
+    <object>objects\obj_pageright</object>
+    <object>objects\obj_pageleft</object>
+    <object>objects\obj_tmp1</object>
+    <object>objects\obj_tmp2</object>
+    <object>objects\obj_tmptxt1</object>
     <objects name="TextObjects">
       <object>objects\obj_testText</object>
       <object>objects\obj_testText2</object>
