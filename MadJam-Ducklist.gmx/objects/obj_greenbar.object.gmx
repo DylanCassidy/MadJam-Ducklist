@@ -59,7 +59,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_xscale += 0.01;
+            <string>
+if (image_xscale = 1) {
+    show_message("You win! Your company is a worldwide success!!!");
+} else {
+    image_xscale += 0.1;
+}
+
+
 </string>
           </argument>
         </arguments>
@@ -82,7 +89,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_xscale -= 0.01;
+            <string>
+if (image_xscale = 0) {
+    show_message("You lose, mwahaha. Your company is bankrupt.");
+} else {
+    image_xscale -= 0.1;
+}
 </string>
           </argument>
         </arguments>

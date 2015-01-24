@@ -59,6 +59,27 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>amfm = "pm";
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
@@ -77,7 +98,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>2</string>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
@@ -255,6 +276,13 @@ if ((hour1=1) &amp;&amp; (hour2=3)){
     hour1 = 0;
     hour2 = 1;
 }
+if ((hour1=1) &amp;&amp; (hour2=2) &amp;&amp; (minute1=0) &amp;&amp; (minute2=0)){
+    if(amfm = "am"){
+        amfm = "pm";
+    } else {
+        amfm = "am";
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -385,6 +413,8 @@ draw_text(x+20,y,hour2)
 draw_text(x+40,y,":")
 draw_text(x+50,y,minute1)
 draw_text(x+70,y,minute2)
+draw_text(x+100,y,amfm)
+
 </string>
           </argument>
         </arguments>
