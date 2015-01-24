@@ -5,9 +5,36 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_head</sprite>
+    <sprite>sprites\spr_body</sprite>
+    <sprite>sprites\spr_button</sprite>
+    <sprite>sprites\spr_larm</sprite>
+    <sprite>sprites\spr_rarm</sprite>
+    <sprite>sprites\spr_lleg</sprite>
+    <sprite>sprites\spr_rleg</sprite>
+    <sprite>sprites\spr_grid</sprite>
+    <sprite>sprites\spr_sidebar</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_grid</background>
+    <background>background\bg_sidebar</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_head</object>
+    <object>objects\obj_body</object>
+    <object>objects\obj_button1</object>
+    <object>objects\obj_button2</object>
+    <object>objects\obj_button3</object>
+    <object>objects\obj_controller</object>
+    <object>objects\obj_larm</object>
+    <object>objects\obj_lleg</object>
+    <object>objects\obj_grid</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_empty</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
