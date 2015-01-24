@@ -19,6 +19,7 @@
     <sprite>sprites\spr_creditscreen</sprite>
     <sprite>sprites\spr_redbar</sprite>
     <sprite>sprites\spr_greenbar</sprite>
+    <sprite>sprites\spr_tempList</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
@@ -44,6 +45,10 @@
     <object>objects\obj_redbar</object>
     <object>objects\obj_greenbar</object>
     <object>objects\obj_clock</object>
+    <objects name="TextObjects">
+      <object>objects\obj_testText</object>
+      <object>objects\obj_testText2</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>
