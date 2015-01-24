@@ -17,6 +17,8 @@
     <sprite>sprites\spr_sidebar</sprite>
     <sprite>sprites\spr_titlescreen</sprite>
     <sprite>sprites\spr_creditscreen</sprite>
+    <sprite>sprites\spr_redbar</sprite>
+    <sprite>sprites\spr_greenbar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
@@ -36,10 +38,12 @@
     <object>objects\obj_grid</object>
     <object>objects\obj_titlescreen</object>
     <object>objects\obj_creditscreen</object>
+    <object>objects\obj_redbar</object>
+    <object>objects\obj_greenbar</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_creditscreen</room>
     <room>rooms\rm_empty</room>
+    <room>rooms\rm_creditscreen</room>
     <room>rooms\rm_titlescreen</room>
   </rooms>
   <help>
