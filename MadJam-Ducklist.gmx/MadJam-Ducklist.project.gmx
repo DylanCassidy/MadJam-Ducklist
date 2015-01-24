@@ -19,6 +19,10 @@
     <sprite>sprites\spr_creditscreen</sprite>
     <sprite>sprites\spr_redbar</sprite>
     <sprite>sprites\spr_greenbar</sprite>
+    <sprite>sprites\spr_pageleft</sprite>
+    <sprite>sprites\spr_pageright</sprite>
+    <sprite>sprites\spr_tmp1</sprite>
+    <sprite>sprites\spr_tmp2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
@@ -44,10 +48,14 @@
     <object>objects\obj_redbar</object>
     <object>objects\obj_greenbar</object>
     <object>objects\obj_clock</object>
+    <object>objects\obj_pageright</object>
+    <object>objects\obj_pageleft</object>
+    <object>objects\obj_tmp1</object>
+    <object>objects\obj_tmp2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>
-    <room>rooms\rm_empty</room>
+    <room>rooms\rm_toymaker</room>
     <room>rooms\rm_creditscreen</room>
   </rooms>
   <help>
