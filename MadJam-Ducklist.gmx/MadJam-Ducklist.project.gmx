@@ -42,9 +42,9 @@
     <object>objects\obj_greenbar</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_titlescreen</room>
     <room>rooms\rm_empty</room>
     <room>rooms\rm_creditscreen</room>
-    <room>rooms\rm_titlescreen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
