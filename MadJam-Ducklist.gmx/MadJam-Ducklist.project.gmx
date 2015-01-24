@@ -7,17 +7,25 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_titlescreen</sprite>
+<<<<<<< Updated upstream
     <sprite>sprites\tempArm</sprite>
     <sprite>sprites\tempHead</sprite>
     <sprite>sprites\tempLeg</sprite>
     <sprite>sprites\tempTorso</sprite>
+=======
+    <sprite>sprites\spr_creditscreen</sprite>
+>>>>>>> Stashed changes
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_red</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_titlescreen</object>
+    <object>objects\obj_creditscreen</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_creditscreen</room>
     <room>rooms\rm_titlescreen</room>
   </rooms>
   <help>
