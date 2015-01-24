@@ -24,6 +24,9 @@
     <sprite>sprites\spr_tmp1</sprite>
     <sprite>sprites\spr_tmp2</sprite>
     <sprite>sprites\spr_tmptxt1</sprite>
+    <sprite>sprites\spr_tempList</sprite>
+    <sprite>sprites\spr_askBoss</sprite>
+    <sprite>sprites\spr_askMark</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
@@ -55,6 +58,12 @@
     <object>objects\obj_tmp1</object>
     <object>objects\obj_tmp2</object>
     <object>objects\obj_tmptxt1</object>
+    <objects name="TextObjects">
+      <object>objects\obj_testText</object>
+      <object>objects\obj_testText2</object>
+    </objects>
+    <object>objects\obj_askBoss</object>
+    <object>objects\obj_askMark</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>
