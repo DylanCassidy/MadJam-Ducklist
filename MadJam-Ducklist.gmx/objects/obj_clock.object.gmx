@@ -53,7 +53,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -98,7 +98,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>9</string>
           </argument>
         </arguments>
       </action>
@@ -122,7 +122,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -146,7 +146,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>4</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -283,6 +283,17 @@ if ((hour1=1) &amp;&amp; (hour2=2) &amp;&amp; (minute1=0) &amp;&amp; (minute2=0)
         amfm = "am";
     }
 }
+
+if(hour2 = 5){ 
+    if (obj_greenbar = 1){ 
+        show_message("You win!! You are the ultimate toymaker");
+        room_goto(rm_creditscreen);
+         }
+    else{
+        show_message("You lose!! You couldn't save the company in time!");
+        }
+}
+    
 </string>
           </argument>
         </arguments>
@@ -304,7 +315,7 @@ if ((hour1=1) &amp;&amp; (hour2=2) &amp;&amp; (minute1=0) &amp;&amp; (minute2=0)
           <argument>
             <kind>1</kind>
             <string>//This is for adding texts from the boss
-if ((hour1=1) &amp;&amp; (hour2=2) &amp;&amp; (minute1=0) &amp;&amp; (minute2=0)){
+if ((hour1=0) &amp;&amp; (hour2=9) &amp;&amp; (minute1=0) &amp;&amp; (minute2=1)){
   instance_create(x-50,y-600,obj_askBoss); 
   instance_create(x+50,y-600,obj_askMark); 
 }

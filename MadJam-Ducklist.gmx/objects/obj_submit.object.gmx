@@ -50,7 +50,8 @@ if(global.ifBoss = 1){
         }
        global.ifBoss = 0
 }
-else if (global.ifBoss = 1) { 
+else if (global.ifBoss = 0) { 
+    show_message("Here");
     if (global.turnScore &gt;= 16){ 
         global.totalScore += 20
     }
@@ -63,7 +64,7 @@ else if (global.ifBoss = 1) {
     else if (global.turnScore &gt;= 10 &amp;&amp; global.turnScore &lt;= 11){ 
         //score doesn't change here
     } 
-    else if (global.totalScore &lt;= 9) {
+    else if (global.turnScore &lt;= 9) {
         global.totalScore +=-10
     }
 }
