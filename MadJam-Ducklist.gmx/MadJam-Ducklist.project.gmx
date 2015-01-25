@@ -6,6 +6,9 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\mainTheme</sound>
+    <sound>sound\cellphone</sound>
+    <sound>sound\buttonClick</sound>
+    <sound>sound\placement</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_head</sprite>
