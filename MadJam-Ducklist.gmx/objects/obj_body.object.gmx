@@ -27,11 +27,9 @@
             <kind>1</kind>
             <string>image_xscale = 0.5;
 image_yscale = 0.5;
-selected = true;
 depth = -100;
+selected = true;
 deleted = 0;
-diffX = sprite_get_width(obj_body)/2;
-diffY = sprite_get_height(obj_body)/2;
 </string>
           </argument>
         </arguments>
@@ -58,8 +56,7 @@ diffY = sprite_get_height(obj_body)/2;
     x = mouse_x;
     y = mouse_y;
 }
-if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_bodybutton.x, obj_bodybutton.y) &lt;= (sprite_get_width(obj_body)/4)))
-{
+else if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_bodybutton.x, obj_bodybutton.y) &lt;= (sprite_get_width(obj_body)/4))) {
    instance_destroy();
 }
 </string>
@@ -88,35 +85,33 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_bodybutton.x, obj_bodybu
     if ((x &gt;= 590) &amp;&amp; (x &lt;= 1310) &amp;&amp; (y &gt;= 106) &amp;&amp; (y &lt;= 826)) {
         image_xscale = 1;
         image_yscale = 1;
-        selected = false;
+        depth = -99;
         global.canSelect = true;
+        selected = false;
         // Middle
         if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 346) &amp;&amp; (y &lt;= 586)) {
             x = 950;
             y = 466;
         }
+        // BAD
         else {
-            image_xscale = 0.5;
-            image_yscale = 0.5;
-            move_towards_point(obj_bodybutton.x, obj_bodybutton.y, 50);
             deleted = 1;
         }
         if !place_empty(x, y) {
-            image_xscale = 0.5;
-            image_yscale = 0.5;
-            move_towards_point(obj_bodybutton.x, obj_bodybutton.y, 50);
             deleted = 1;
         }
-        depth = -100;
     }
     else {
-        image_xscale = 0.5;
-        image_yscale = 0.5;
-        selected = false;
-        global.canSelect = true;
-        move_towards_point(obj_bodybutton.x, obj_bodybutton.y, 50);
         deleted = 1;
     }
+}
+if (deleted == 1) {
+    image_xscale = 0.5;
+    image_yscale = 0.5;
+    depth = -100;
+    global.canSelect = true;
+    selected = false;
+    move_towards_point(obj_bodybutton.x, obj_bodybutton.y, 100);
 }
 </string>
           </argument>
@@ -143,11 +138,11 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_bodybutton.x, obj_bodybu
             <string>if (global.canSelect and deleted == 0) {
     image_xscale = 0.5;
     image_yscale = 0.5;
-    selected = true;
-    global.canSelect = false;
-    depth = -100;
     x = mouse_x;
     y = mouse_y;
+    depth = -100;
+    global.canSelect = false;
+    selected = true;
 }
 </string>
           </argument>

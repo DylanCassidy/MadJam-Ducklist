@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>global.canSelect = true;
-global.button = 0;
 </string>
           </argument>
         </arguments>
