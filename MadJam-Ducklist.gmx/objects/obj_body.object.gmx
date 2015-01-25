@@ -109,7 +109,7 @@ if (deleted == 1) {
     image_yscale = 0.5;
     depth = -100;
     selected = false;
-    move_towards_point(obj_bodybutton.x, obj_bodybutton.y, 100);
+    move_towards_point(obj_controller.x, obj_controller.y, 100);
 }
 </string>
           </argument>

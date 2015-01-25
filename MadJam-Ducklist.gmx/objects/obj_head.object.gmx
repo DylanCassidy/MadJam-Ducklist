@@ -128,7 +128,7 @@ if (deleted == 1) {
     depth = -100;
     image_angle = 0;
     selected = false;
-    move_towards_point(obj_headbutton.x, obj_headbutton.y, 100);
+    move_towards_point(obj_controller.x, obj_controller.y, 100);
 }
 </string>
           </argument>
