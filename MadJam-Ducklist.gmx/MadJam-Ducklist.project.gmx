@@ -41,7 +41,6 @@
     <background>background\bg_grid</background>
     <background>background\bg_sidebar</background>
     <background>background\bg_red</background>
-    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -71,6 +70,15 @@
       <object>objects\obj_bossText4</object>
       <object>objects\obj_bossText5</object>
       <object>objects\obj_markText1</object>
+      <object>objects\obj_markText2</object>
+      <object>objects\obj_markText3</object>
+      <object>objects\obj_markText4</object>
+      <object>objects\obj_markText5</object>
+      <object>objects\obj_markText6</object>
+      <object>objects\obj_markText7</object>
+      <object>objects\obj_markText8</object>
+      <object>objects\obj_markText9</object>
+      <object>objects\obj_markText10</object>
     </objects>
     <object>objects\obj_askBoss</object>
     <object>objects\obj_askMark</object>

@@ -25,13 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_xscale = 0.5;
-image_yscale = 0.5;
-selected = true;
-depth = -100;
-deleted = 0;
-diffX = sprite_get_width(obj_head)/2;
-diffY = sprite_get_height(obj_head)/2;
+            <string>selected = false;
+depth = 100;
+if !place_snapped(40, 40) {
+    move_snap(40, 40);
+}
+if !place_empty(x, y) {
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>
@@ -109,6 +110,7 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbu
         move_towards_point(obj_headbutton.x, obj_headbutton.y, 50);
         deleted = 1;
     }
+    depth = 100;
 }
 </string>
           </argument>
@@ -132,14 +134,17 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbu
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.canSelect and deleted == 0) {
-    image_xscale = 0.5;
-    image_yscale = 0.5;
+            <string>if (global.canSelect) {
+    if (global.button == -1) {
+        instance_destroy();
+    }
     selected = true;
     global.canSelect = false;
+    locX = mouse_x - x;
+    locY = mouse_y - y;
+    oldX = x;
+    oldY = y;
     depth = -100;
-    x = mouse_x;
-    y = mouse_y;
 }
 </string>
           </argument>
