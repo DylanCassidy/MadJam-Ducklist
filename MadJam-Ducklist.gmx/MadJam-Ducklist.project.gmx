@@ -146,7 +146,6 @@
     <object>objects\obj_askBoss</object>
     <object>objects\obj_submit</object>
     <object>objects\obj_Count</object>
-    <object>objects\obj_scoreCounter</object>
     <objects name="tabs-lists">
       <object>objects\obj_leftarmtab</object>
       <object>objects\obj_torsotab</object>
