@@ -70,6 +70,7 @@
     <object>objects\obj_submit</object>
     <object>objects\obj_Count</object>
     <object>objects\obj_tmptxt2</object>
+    <object>objects\obj_tmptxt1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>
