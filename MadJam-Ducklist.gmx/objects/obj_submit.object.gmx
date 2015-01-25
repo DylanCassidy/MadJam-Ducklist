@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>//This is for adding texts from the boss
+ds_list_add(global.usedList, global.bossCount)
+ds_list_add(global.usedMark, global.markCount)
 
 if(global.ifBoss = 1){ 
      if(global.turnScore &gt;= 26){
