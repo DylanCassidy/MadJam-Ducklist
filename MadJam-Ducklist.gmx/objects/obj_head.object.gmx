@@ -94,19 +94,19 @@ else if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_h
         }
         // Bottom
         else if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 586) &amp;&amp; (y &lt;= 826)) {
-            x = 830;
-            y = 586;
+            x = 1070;
+            y = 826;
             image_angle = 180;
         }
         // Left
         else if ((x &gt;= 590) &amp;&amp; (x &lt;= 830) &amp;&amp; (y &gt;= 346) &amp;&amp; (y &lt;= 586)) {
             x = 590;
-            y = 346;
+            y = 586;
             image_angle = 90;
         }
         // Right
         else if ((x &gt;= 1070) &amp;&amp; (x &lt;= 1310) &amp;&amp; (y &gt;= 346) &amp;&amp; (y &lt;= 586)) {
-            x = 1070;
+            x = 1310;
             y = 346;
             image_angle = 270;
         }
