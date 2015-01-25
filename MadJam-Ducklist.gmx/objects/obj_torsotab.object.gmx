@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.headList = ds_list_create();
-global.headList[| 0] = obj_tmp1;
-global.headList[| 1] = obj_tmp2;
+            <string>global.torsoList = ds_list_create();
+global.torsoList[| 0] = obj_tmp1;
+global.torsoList[| 1] = obj_tmp2;
 </string>
           </argument>
         </arguments>
@@ -62,7 +62,7 @@ for (i = 0; i &lt; 3; i += 1)
         {
             w = 320
         }
-        instance_create(w, z, global.headList[| i]);
+        instance_create(w, z, global.torsoList[| i]);
    }
    
 

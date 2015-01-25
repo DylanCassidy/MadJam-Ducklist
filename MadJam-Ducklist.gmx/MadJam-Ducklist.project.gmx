@@ -35,11 +35,13 @@
     <sprite>sprites\spr_leftarmtab</sprite>
     <sprite>sprites\spr_rightarmtab</sprite>
     <sprite>sprites\spr_headtab</sprite>
+    <sprite>sprites\spr_background</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
     <background>background\bg_sidebar</background>
     <background>background\bg_red</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -83,6 +85,7 @@
     <object>objects\obj_headtab</object>
     <object>objects\obj_torsotab</object>
     <object>objects\obj_tmp2</object>
+    <object>objects\obj_background</object>
     <object>objects\obj_tmp1</object>
   </objects>
   <rooms name="rooms">
