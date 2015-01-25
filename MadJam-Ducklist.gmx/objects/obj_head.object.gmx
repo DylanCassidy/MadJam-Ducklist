@@ -25,14 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>selected = false;
-depth = 100;
-if !place_snapped(40, 40) {
-    move_snap(40, 40);
-}
-if !place_empty(x, y) {
-    instance_destroy();
-}
+            <string>image_xscale = 0.5;
+image_yscale = 0.5;
+selected = true;
+depth = -100;
+deleted = 0;
+diffX = sprite_get_width(obj_head)/2;
+diffY = sprite_get_height(obj_head)/2;
 </string>
           </argument>
         </arguments>
@@ -56,8 +55,12 @@ if !place_empty(x, y) {
           <argument>
             <kind>1</kind>
             <string>if (selected) {
-    x = mouse_x - locX;
-    y = mouse_y - locY;
+    x = mouse_x;
+    y = mouse_y;
+}
+if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_button1.x, obj_button1.y) &lt;= (sprite_get_width(obj_head)/4)))
+{
+   instance_destroy();
 }
 </string>
           </argument>
@@ -82,16 +85,30 @@ if !place_empty(x, y) {
           <argument>
             <kind>1</kind>
             <string>if (selected) {
-    selected = false;
-    global.canSelect = true;
-    if !place_snapped(40, 40) {
-        move_snap(40, 40);
+    if ((x &gt;= 650) &amp;&amp; (x &lt;= 1354) &amp;&amp; (y &gt;= 100) &amp;&amp; (y &lt;= 804)) {
+        image_xscale = 1;
+        image_yscale = 1;
+        selected = false;
+        global.canSelect = true;
+        if !place_snapped(40, 40) {
+            move_snap(40, 40);
+        }
+        if !place_empty(x, y) {
+            image_xscale = 0.5;
+            image_yscale = 0.5;
+            move_towards_point(obj_button1.x, obj_button1.y, 50);
+            deleted = 1;
+        }
+        depth = 100;
     }
-    if !place_empty(x, y) {
-        x = oldX;
-        y = oldY;
+    else {
+        image_xscale = 0.5;
+        image_yscale = 0.5;
+        selected = false;
+        global.canSelect = true;
+        move_towards_point(obj_button1.x, obj_button1.y, 50);
+        deleted = 1;
     }
-    depth = 100;
 }
 </string>
           </argument>
@@ -115,17 +132,14 @@ if !place_empty(x, y) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.canSelect) {
-    if (global.button == -1) {
-        instance_destroy();
-    }
+            <string>if (global.canSelect and deleted == 0) {
+    image_xscale = 0.5;
+    image_yscale = 0.5;
     selected = true;
     global.canSelect = false;
-    locX = mouse_x - x;
-    locY = mouse_y - y;
-    oldX = x;
-    oldY = y;
     depth = -100;
+    x = mouse_x;
+    y = mouse_y;
 }
 </string>
           </argument>
