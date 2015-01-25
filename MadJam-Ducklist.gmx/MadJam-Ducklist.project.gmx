@@ -47,6 +47,7 @@
     <font>fonts\textFont</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_head</object>
     <object>objects\obj_body</object>
     <object>objects\obj_headbutton</object>
     <object>objects\obj_bodybutton</object>

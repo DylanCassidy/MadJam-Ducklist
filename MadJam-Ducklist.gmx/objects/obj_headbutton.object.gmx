@@ -26,12 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>global.canSelect = false;
-if (global.button != 1) {
-    global.button = 1;
-}
-else {
-    global.button = 0;
-}
+instance_create(mouse_x, mouse_y, obj_head);
 </string>
           </argument>
         </arguments>

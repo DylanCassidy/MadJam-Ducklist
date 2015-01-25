@@ -53,13 +53,10 @@
   <instances>
     <instance objName="obj_controller" x="0" y="0" name="inst_7A74D182" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_headbutton" x="1568" y="96" name="inst_018F294E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="1568" y="224" name="inst_207494D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_greenbar" x="640" y="832" name="inst_78B9E6E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_redbar" x="640" y="832" name="inst_6F36EA7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_clock" x="1536" y="864" name="inst_5A68320C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Count" x="0" y="0" name="inst_74209911" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="128" y="96" name="inst_D8314711" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="320" y="96" name="inst_957421C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bodybutton" x="1568" y="160" name="inst_8B443233" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_leftarmtab" x="352" y="64" name="inst_E17DAA0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_headtab" x="224" y="64" name="inst_BA0F20E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

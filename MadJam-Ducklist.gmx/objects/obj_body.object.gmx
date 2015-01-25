@@ -96,7 +96,7 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_bodybutton.x, obj_bodybu
         if !place_empty(x, y) {
             image_xscale = 0.5;
             image_yscale = 0.5;
-            move_towards_point(obj_headbutton.x, obj_headbutton.y, 50);
+            move_towards_point(obj_bodybutton.x, obj_bodybutton.y, 50);
             deleted = 1;
         }
         depth = 100;
@@ -106,7 +106,7 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_bodybutton.x, obj_bodybu
         image_yscale = 0.5;
         selected = false;
         global.canSelect = true;
-        move_towards_point(obj_headbutton.x, obj_headbutton.y, 50);
+        move_towards_point(obj_bodybutton.x, obj_bodybutton.y, 50);
         deleted = 1;
     }
 }
