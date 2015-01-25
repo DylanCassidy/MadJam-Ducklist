@@ -52,19 +52,19 @@
 if(global.markCount = 1){
     instance_create(x,y-70,obj_markText1);
 }
-/*
-else if(global.bossCount = 2){
-  instance_create(x,y-70,obj_bossText2);
+/
+else if(global.markCount = 2){
+  instance_create(x,y-70,obj_markText2);
 }
-else if(global.bossCount = 3){
-  instance_create(x,y-70,obj_bossText3);
+else if(global.markCount = 3){
+  instance_create(x,y-70,obj_markText3);
 }
-else if(global.bossCount = 4){
-  instance_create(x,y-70,obj_bossText4);
+else if(global.markCount = 4){
+  instance_create(x,y-70,obj_markText4);
 }
 else{
-  instance_create(x,y-70,obj_bossText5);
-}*/
+  instance_create(x,y-70,obj_markText5);
+}
 instance_create(x,y,obj_submit);  
 with(obj_askBoss){
     instance_destroy()

@@ -29,19 +29,11 @@
     <sprite>sprites\spr_askMark</sprite>
     <sprite>sprites\spr_submit</sprite>
     <sprite>sprites\spr_tmptxt2</sprite>
-    <sprite>sprites\spr_blocker</sprite>
-    <sprite>sprites\spr_legstab</sprite>
-    <sprite>sprites\spr_torsostab</sprite>
-    <sprite>sprites\spr_leftarmtab</sprite>
-    <sprite>sprites\spr_rightarmtab</sprite>
-    <sprite>sprites\spr_headtab</sprite>
-    <sprite>sprites\spr_background</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
     <background>background\bg_sidebar</background>
     <background>background\bg_red</background>
-    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -51,14 +43,8 @@
   <objects name="objects">
     <object>objects\obj_head</object>
     <object>objects\obj_body</object>
-<<<<<<< HEAD
-    <object>objects\obj_button2</object>
-    <object>objects\obj_button1</object>
-    <object>objects\obj_button3</object>
-=======
     <object>objects\obj_headbutton</object>
     <object>objects\obj_bodybutton</object>
->>>>>>> bc497f0721f7697dfa0a7bb700662575a48be1b3
     <object>objects\obj_controller</object>
     <object>objects\obj_larm</object>
     <object>objects\obj_lleg</object>
@@ -92,16 +78,6 @@
     <object>objects\obj_submit</object>
     <object>objects\obj_Count</object>
     <object>objects\obj_tmptxt2</object>
-    <object>objects\obj_blocker</object>
-    <object>objects\obj_tmptxt1</object>
-    <object>objects\obj_legstab</object>
-    <object>objects\obj_rightarmtab</object>
-    <object>objects\obj_leftarmtab</object>
-    <object>objects\obj_headtab</object>
-    <object>objects\obj_torsotab</object>
-    <object>objects\obj_tmp2</object>
-    <object>objects\obj_background</object>
-    <object>objects\obj_tmp1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>

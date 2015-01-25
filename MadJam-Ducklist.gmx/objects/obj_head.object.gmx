@@ -56,17 +56,12 @@ if !place_empty(x, y) {
           <argument>
             <kind>1</kind>
             <string>if (selected) {
-<<<<<<< HEAD
-    x = mouse_x - locX;
-    y = mouse_y - locY;
-=======
     x = mouse_x;
     y = mouse_y;
 }
 if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbutton.y) &lt;= (sprite_get_width(obj_head)/4)))
 {
    instance_destroy();
->>>>>>> bc497f0721f7697dfa0a7bb700662575a48be1b3
 }
 </string>
           </argument>
@@ -91,16 +86,6 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbu
           <argument>
             <kind>1</kind>
             <string>if (selected) {
-<<<<<<< HEAD
-    selected = false;
-    global.canSelect = true;
-    if !place_snapped(40, 40) {
-        move_snap(40, 40);
-    }
-    if !place_empty(x, y) {
-        x = oldX;
-        y = oldY;
-=======
     if ((x &gt;= 650) &amp;&amp; (x &lt;= 1354) &amp;&amp; (y &gt;= 100) &amp;&amp; (y &lt;= 804)) {
         image_xscale = 1;
         image_yscale = 1;
@@ -124,7 +109,6 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbu
         global.canSelect = true;
         move_towards_point(obj_headbutton.x, obj_headbutton.y, 50);
         deleted = 1;
->>>>>>> bc497f0721f7697dfa0a7bb700662575a48be1b3
     }
     depth = 100;
 }
