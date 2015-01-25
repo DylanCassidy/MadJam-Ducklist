@@ -90,25 +90,28 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbu
         image_yscale = 1;
         selected = false;
         global.canSelect = true;
-        if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 346) &amp;&amp; (y &lt;= 586)) {
-            x = 950;
-            y = 466;
-        }
-        else if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 106) &amp;&amp; (y &lt;= 346)) {
+        // Top
+        if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 106) &amp;&amp; (y &lt;= 346)) {
             x = 950;
             y = 226;
         }
+        // Bottom
         else if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 586) &amp;&amp; (y &lt;= 826)) {
             x = 950;
             y = 706;
+            image_angle = 180;
         }
+        // Left
         else if ((x &gt;= 590) &amp;&amp; (x &lt;= 830) &amp;&amp; (y &gt;= 346) &amp;&amp; (y &lt;= 586)) {
             x = 710;
             y = 466;
+            image_angle = 90;
         }
+        // Right
         else if ((x &gt;= 1070) &amp;&amp; (x &lt;= 1310) &amp;&amp; (y &gt;= 346) &amp;&amp; (y &lt;= 586)) {
             x = 1190;
             y = 466;
+            image_angle = 270;
         }
         else {
             image_xscale = 0.5;
@@ -158,6 +161,7 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbu
             <string>if (global.canSelect and deleted == 0) {
     image_xscale = 0.5;
     image_yscale = 0.5;
+    image_angle = 0;
     selected = true;
     global.canSelect = false;
     depth = -100;
