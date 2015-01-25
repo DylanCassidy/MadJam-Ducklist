@@ -29,6 +29,11 @@
     <sprite>sprites\spr_askMark</sprite>
     <sprite>sprites\spr_submit</sprite>
     <sprite>sprites\spr_tmptxt2</sprite>
+    <sprite>sprites\spr_legstab</sprite>
+    <sprite>sprites\spr_torsostab</sprite>
+    <sprite>sprites\spr_leftarmtab</sprite>
+    <sprite>sprites\spr_rightarmtab</sprite>
+    <sprite>sprites\spr_headtab</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
@@ -43,8 +48,8 @@
   <objects name="objects">
     <object>objects\obj_head</object>
     <object>objects\obj_body</object>
-    <object>objects\obj_button1</object>
     <object>objects\obj_button2</object>
+    <object>objects\obj_button1</object>
     <object>objects\obj_button3</object>
     <object>objects\obj_controller</object>
     <object>objects\obj_larm</object>
@@ -71,6 +76,13 @@
     <object>objects\obj_Count</object>
     <object>objects\obj_tmptxt2</object>
     <object>objects\obj_tmptxt1</object>
+    <object>objects\obj_legstab</object>
+    <object>objects\obj_rightarmtab</object>
+    <object>objects\obj_leftarmtab</object>
+    <object>objects\obj_headtab</object>
+    <object>objects\obj_torsotab</object>
+    <object>objects\obj_tmp2</object>
+    <object>objects\obj_tmp1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>

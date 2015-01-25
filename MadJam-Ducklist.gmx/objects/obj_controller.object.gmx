@@ -73,7 +73,12 @@ global.button = 0;
           <argument>
             <kind>1</kind>
             <string>if (global.canSelect and global.button != 0) {
-    if (global.button == 2) {
+    if (global.button == 1) {
+        if (position_empty(mouse_x, mouse_y)) {
+            instance_create(mouse_x - sprite_get_width(obj_head)/2, mouse_y - sprite_get_height(obj_head)/2, obj_head);
+        }
+    }
+    else if (global.button == 2) {
         if (position_empty(mouse_x, mouse_y)) {
             instance_create(mouse_x - sprite_get_width(obj_body)/2, mouse_y - sprite_get_height(obj_body)/2, obj_body);
         }
