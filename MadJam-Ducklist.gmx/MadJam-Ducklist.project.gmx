@@ -19,11 +19,6 @@
     <sprite>sprites\spr_creditscreen</sprite>
     <sprite>sprites\spr_redbar</sprite>
     <sprite>sprites\spr_greenbar</sprite>
-    <sprite>sprites\spr_pageleft</sprite>
-    <sprite>sprites\spr_pageright</sprite>
-    <sprite>sprites\spr_tmp1</sprite>
-    <sprite>sprites\spr_tmp2</sprite>
-    <sprite>sprites\spr_tmptxt1</sprite>
     <sprite>sprites\spr_tempList</sprite>
     <sprite>sprites\spr_askBoss</sprite>
     <sprite>sprites\spr_askMark</sprite>
@@ -54,19 +49,20 @@
     <object>objects\obj_redbar</object>
     <object>objects\obj_greenbar</object>
     <object>objects\obj_clock</object>
-    <object>objects\obj_pageright</object>
-    <object>objects\obj_pageleft</object>
-    <object>objects\obj_tmp1</object>
-    <object>objects\obj_tmp2</object>
-    <object>objects\obj_tmptxt1</object>
     <objects name="TextObjects">
       <object>objects\obj_testText</object>
       <object>objects\obj_testText2</object>
       <object>objects\obj_bossText1</object>
+      <object>objects\obj_bossText2</object>
+      <object>objects\obj_bossText3</object>
+      <object>objects\obj_bossText4</object>
+      <object>objects\obj_bossText5</object>
+      <object>objects\obj_markText1</object>
     </objects>
     <object>objects\obj_askBoss</object>
     <object>objects\obj_askMark</object>
     <object>objects\obj_submit</object>
+    <object>objects\obj_Count</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>

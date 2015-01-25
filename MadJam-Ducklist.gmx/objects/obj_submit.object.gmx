@@ -7,7 +7,70 @@
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
-  <events/>
+  <events>
+    <event eventtype="6" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//This is for adding texts from the boss
+
+if(global.bossCount = 1){
+    with(obj_bossText1){
+        instance_destroy()
+    }
+}
+else if(global.bossCount = 2){
+    with(obj_bossText2){
+        instance_destroy()
+    }
+}
+else if(global.bossCount = 3){
+    with(obj_bossText3){
+        instance_destroy()
+    }
+}
+else if(global.bossCount = 4){
+    with(obj_bossText4){
+        instance_destroy()
+    }
+}
+else if (global.bossCount = 5){
+    with(obj_bossText5){
+        instance_destroy()
+    }
+}
+else {
+    if (obj_greenbar = 1){ 
+        show_message("You win!! You are the ultimate toymaker");
+        room_goto(rm_creditscreen);
+         }
+    else{
+        show_message("You lose!! You couldn't save the company in time!");
+        }
+}
+instance_create(x,y,obj_askBoss); 
+instance_create(x+100,y,obj_askMark); 
+
+instance_destroy()
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
@@ -19,5 +82,8 @@
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>0,0</point>
+    <point>120,120</point>
+  </PhysicsShapePoints>
 </object>
