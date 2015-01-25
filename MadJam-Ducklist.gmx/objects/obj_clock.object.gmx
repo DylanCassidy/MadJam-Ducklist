@@ -305,8 +305,8 @@ if ((hour1=1) &amp;&amp; (hour2=2) &amp;&amp; (minute1=0) &amp;&amp; (minute2=0)
             <kind>1</kind>
             <string>//This is for adding texts from the boss
 if ((hour1=1) &amp;&amp; (hour2=2) &amp;&amp; (minute1=0) &amp;&amp; (minute2=0)){
-  instance_create(x,y-500,obj_askBoss); 
-  instance_create(x+100,y-500,obj_askMark); 
+  instance_create(x-50,y-600,obj_askBoss); 
+  instance_create(x+50,y-600,obj_askMark); 
 }
 
 

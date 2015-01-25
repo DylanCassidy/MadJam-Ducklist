@@ -80,8 +80,8 @@
       <object>objects\obj_markText9</object>
       <object>objects\obj_markText10</object>
     </objects>
-    <object>objects\obj_askBoss</object>
     <object>objects\obj_askMark</object>
+    <object>objects\obj_askBoss</object>
     <object>objects\obj_submit</object>
     <object>objects\obj_Count</object>
     <object>objects\obj_tmptxt2</object>

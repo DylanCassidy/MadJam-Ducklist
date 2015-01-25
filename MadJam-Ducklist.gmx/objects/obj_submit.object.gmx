@@ -30,36 +30,51 @@
 if(global.bossCount = 1){
     with(obj_bossText1){
         instance_destroy()
-        instance_create(x,y,obj_askBoss); 
-        instance_create(x+100,y,obj_askMark);
     }
 }
 else if(global.bossCount = 2){
     with(obj_bossText2){
         instance_destroy()
-        instance_create(x,y,obj_askBoss); 
-        instance_create(x+100,y,obj_askMark);
     }
 }
 else if(global.bossCount = 3){
     with(obj_bossText3){
         instance_destroy()
-        instance_create(x,y,obj_askBoss); 
-        instance_create(x+100,y,obj_askMark);
     }
 }
 else if(global.bossCount = 4){
     with(obj_bossText4){
         instance_destroy()
-        instance_create(x,y,obj_askBoss); 
-        instance_create(x+100,y,obj_askMark);
     }
 }
 else if (global.bossCount = 5){
     with(obj_bossText5){
         instance_destroy()
-        instance_create(x,y,obj_askBoss); 
-        instance_create(x+100,y,obj_askMark);
+    }
+}
+if (global.markCount = 1){
+    with(obj_markText1){
+        instance_destroy();
+    }
+}
+else if(global.markCount = 2){
+    with(obj_markText2){
+        instance_destroy()
+    }
+}
+else if(global.markCount = 3){
+    with(obj_markText3){
+        instance_destroy()
+    }
+}
+else if(global.markCount = 4){
+    with(obj_markText4){
+        instance_destroy()
+    }
+}
+else if (global.markCount = 5){
+    with(obj_markText5){
+        instance_destroy()
     }
 }
 else {
@@ -71,41 +86,8 @@ else {
         show_message("You lose!! You couldn't save the company in time!");
         }
 }
-if (global.markCount = 1){
-    with(obj_markText1){
-        instance_destroy();
-        instance_create(x-100,y,obj_askBoss); 
-        instance_create(x,y,obj_askMark); 
-    }
-}
-else if(global.markCount = 2){
-    with(obj_markText2){
-        instance_destroy()
-        instance_create(x,y,obj_askBoss); 
-        instance_create(x+100,y,obj_askMark);
-    }
-}
-else if(global.markCount = 3){
-    with(obj_markText3){
-        instance_destroy()
-        instance_create(x,y,obj_askBoss); 
-        instance_create(x+100,y,obj_askMark);
-    }
-}
-else if(global.markCount = 4){
-    with(obj_markText4){
-        instance_destroy()
-        instance_create(x,y,obj_askBoss); 
-        instance_create(x+100,y,obj_askMark);
-    }
-}
-else if (global.markCount = 5){
-    with(obj_markText5){
-        instance_destroy()
-        instance_create(x,y,obj_askBoss); 
-        instance_create(x+100,y,obj_askMark);
-    }
-}
+instance_create(x,y,obj_askBoss); 
+instance_create(x+100,y,obj_askMark);
 instance_destroy()
 </string>
           </argument>
