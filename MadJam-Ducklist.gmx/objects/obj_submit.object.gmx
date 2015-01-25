@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>//This is for adding texts from the boss
 
-if(global.bossCount = 1){
+if(global.bossCount = 1 &amp;&amp; global.ifBoss = 1){
     with(obj_bossText1){
         instance_destroy()
     }
@@ -88,7 +88,9 @@ else {
 }
 instance_create(x,y,obj_askBoss); 
 instance_create(x+100,y,obj_askMark);
+global.ifBoss = 0
 instance_destroy()
+
 </string>
           </argument>
         </arguments>

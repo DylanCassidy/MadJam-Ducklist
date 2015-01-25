@@ -50,19 +50,19 @@
             <kind>1</kind>
             <string>
 if(global.markCount = 1){
-    instance_create(x,y-70,obj_markText1);
+    instance_create(x-90,y-70,obj_markText1);
 }
 else if(global.markCount = 2){
-  instance_create(x,y-70,obj_markText2);
+  instance_create(x-90,y-70,obj_markText2);
 }
 else if(global.markCount = 3){
-  instance_create(x,y-70,obj_markText3);
+  instance_create(x-90,y-70,obj_markText3);
 }
 else if(global.markCount = 4){
-  instance_create(x,y-70,obj_markText4);
+  instance_create(x-90,y-70,obj_markText4);
 }
 else{
-  instance_create(x,y-70,obj_markText5);
+  instance_create(x-90,y-70,obj_markText5);
 }
 instance_create(x-100,y,obj_submit);  
 with(obj_askBoss){

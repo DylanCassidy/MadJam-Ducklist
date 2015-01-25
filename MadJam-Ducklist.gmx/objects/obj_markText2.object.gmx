@@ -25,11 +25,35 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>markText2</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>" animals are trending."</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>markText1</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>"It looks like cute anthropomorphic animals are trending. #cuteanimals"</string>
+            <string>"It looks like cute anthropomorphic"</string>
           </argument>
         </arguments>
       </action>
@@ -52,7 +76,7 @@
             <string>draw_set_color(c_black)
 draw_set_font(textFont)
 draw_text(x,y,markText1)
-
+draw_text(x,y+30,markText2)
 </string>
           </argument>
         </arguments>

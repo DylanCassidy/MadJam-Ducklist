@@ -48,7 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>global.ifBoss = 1
+
 if(global.bossCount = 1){
     instance_create(x,y-70,obj_bossText1);
 }

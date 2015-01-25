@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>global.bossCount = 0
 global.markCount = 0
+global.ifBoss = 0
 </string>
           </argument>
         </arguments>
