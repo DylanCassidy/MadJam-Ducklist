@@ -58,7 +58,7 @@ diffY = sprite_get_height(obj_head)/2;
     x = mouse_x;
     y = mouse_y;
 }
-if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_button1.x, obj_button1.y) &lt;= (sprite_get_width(obj_head)/4)))
+if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbutton.y) &lt;= (sprite_get_width(obj_head)/4)))
 {
    instance_destroy();
 }
@@ -96,7 +96,7 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_button1.x, obj_button1.y
         if !place_empty(x, y) {
             image_xscale = 0.5;
             image_yscale = 0.5;
-            move_towards_point(obj_button1.x, obj_button1.y, 50);
+            move_towards_point(obj_headbutton.x, obj_headbutton.y, 50);
             deleted = 1;
         }
         depth = 100;
@@ -106,7 +106,7 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_button1.x, obj_button1.y
         image_yscale = 0.5;
         selected = false;
         global.canSelect = true;
-        move_towards_point(obj_button1.x, obj_button1.y, 50);
+        move_towards_point(obj_headbutton.x, obj_headbutton.y, 50);
         deleted = 1;
     }
 }
