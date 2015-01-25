@@ -52,7 +52,6 @@
 if(global.markCount = 1){
     instance_create(x,y-70,obj_markText1);
 }
-/
 else if(global.markCount = 2){
   instance_create(x,y-70,obj_markText2);
 }
