@@ -124,7 +124,7 @@
     <object>objects\obj_greenbar</object>
     <object>objects\obj_clock</object>
     <objects name="TextObjects">
-      <object>objects\obj_testText</object>
+      <object>objects\obj_comment</object>
       <object>objects\obj_testText2</object>
       <object>objects\obj_bossText1</object>
       <object>objects\obj_bossText2</object>
