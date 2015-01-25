@@ -32,12 +32,15 @@ ds_list_add(global.usedMark, global.markCount)
 if(global.ifBoss = 1){ 
      if(global.turnScore &gt;= 26){
           global.totalScore +=35
+          global.comment = "WOW! THAT TOY IS AMAZING!"
         }
      else if(global.turnScore &gt;= 24 &amp;&amp; global.turnScore&lt;=25){
         global.totalScore += 20
+        global.comment = "Oh, thank goodness you know what you’re doing!# I can’t help think that we’ll need a bigger payoff!"
         }
      else if (global.turnScore &gt;=22 &amp;&amp; global.turnScore&lt;=23){
         global.totalScore += 10
+        global.comment = "Not bad, but toys like those aren’t going to save our company."
         }
      else if (global.turnScore &gt;=20 &amp;&amp; global.turnScore &lt;= 21){ 
         //score doesn't change here
@@ -51,7 +54,6 @@ if(global.ifBoss = 1){
        global.ifBoss = 0
 }
 else if (global.ifBoss = 0) { 
-    show_message("Here");
     if (global.turnScore &gt;= 16){ 
         global.totalScore += 20
     }
