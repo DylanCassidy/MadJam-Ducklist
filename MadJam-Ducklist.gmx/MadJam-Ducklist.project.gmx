@@ -141,7 +141,6 @@
       <object>objects\obj_markText8</object>
       <object>objects\obj_markText9</object>
       <object>objects\obj_markText10</object>
-      <object>objects\object146</object>
     </objects>
     <object>objects\obj_askMark</object>
     <object>objects\obj_askBoss</object>
@@ -155,9 +154,9 @@
       <object>objects\obj_rightarmtab</object>
       <object>objects\obj_legstab</object>
     </objects>
-    <object>objects\obj_leftarmtab</object>
-    <object>objects\obj_headtab</object>
-    <object>objects\obj_torsotab</object>
+    <object>objects\obj_tmptxt2</object>
+    <object>objects\obj_blocker</object>
+    <object>objects\obj_tmptxt1</object>
     <object>objects\obj_tmp2</object>
     <object>objects\obj_background</object>
     <object>objects\obj_tmp1</object>
