@@ -26,6 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>global.legsList = ds_list_create();
+global.legsList[| 0] = obj_flipperLegs;
+global.legsList[| 1] = obj_jetBootsLegs;
+global.legsList[| 2] = obj_warLegs;
+global.legsList[| 3] = obj_whiteKnightLegs;
+global.legsList[| 4] = obj_dressLegs;
+global.legsList[| 5] = obj_teddyLegs;
+global.legsList[| 6] = obj_flooreLegs;
+global.legsList[| 7] = obj_goatLegs;
+global.legsList[| 8] = obj_trexLegs;
+global.legsList[| 9] = obj_cowboyLegs;
 </string>
           </argument>
         </arguments>
@@ -48,9 +58,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*w = 128;
+            <string>
+//global.allToysList[| 0] = obj_tmp1;
+
+for (i=0; i&lt;50; i++){
+    with(global.allToysList[| i]){
+        instance_destroy();
+    }
+}
+w = 128;
 z = 0;
-for (i = 0; i &lt; 2; i += 1)
+for (i = 0; i &lt; 10; i += 1)
    {
         if (i mod 2 = 0){
             w = 128
@@ -63,28 +81,8 @@ for (i = 0; i &lt; 2; i += 1)
         instance_create(w, z, global.legsList[| i]);
    }
    
-*/
+
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string></string>
           </argument>
         </arguments>
       </action>

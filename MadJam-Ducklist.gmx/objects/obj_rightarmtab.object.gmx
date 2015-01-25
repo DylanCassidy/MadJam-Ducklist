@@ -26,6 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>global.rightarmList = ds_list_create();
+global.rightarmList[| 0] = obj_trexRarm;
+global.rightarmList[| 1] = obj_tentacleRarm;
+global.rightarmList[| 2] = obj_teddyRarm;
+global.rightarmList[| 3] = obj_bicepRarm;
+global.rightarmList[| 4] = obj_gunRarm;
+global.rightarmList[| 5] = obj_hoofRarm;
+global.rightarmList[| 6] = obj_bionicRarm;
+global.rightarmList[| 7] = obj_whiteKnightRarm;
+global.rightarmList[| 8] = obj_robotGunRarm;
+global.rightarmList[| 9] = obj_alienRarm;
 </string>
           </argument>
         </arguments>
@@ -51,34 +61,15 @@
             <string>
 //global.allToysList[| 0] = obj_tmp1;
 
-for (i=0; i&lt;2; i++){
+for (i=0; i&lt;50; i++){
     with(global.allToysList[| i]){
         instance_destroy();
     }
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/*w = 128;
+
+w = 128;
 z = 0;
-for (i = 0; i &lt; 2; i += 1)
+for (i = 0; i &lt; 10; i += 1)
    {
         if (i mod 2 = 0){
             w = 128
@@ -91,7 +82,7 @@ for (i = 0; i &lt; 2; i += 1)
         instance_create(w, z, global.rightarmList[| i]);
    }
    
-*/
+
 </string>
           </argument>
         </arguments>
