@@ -72,8 +72,8 @@
     <object>objects\obj_tmptxt2</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_toymaker</room>
     <room>rooms\rm_titlescreen</room>
+    <room>rooms\rm_toymaker</room>
     <room>rooms\rm_creditscreen</room>
   </rooms>
   <help>
