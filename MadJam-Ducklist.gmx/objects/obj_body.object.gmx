@@ -86,7 +86,6 @@ else if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_bodybutton.x, obj_b
         image_xscale = 1;
         image_yscale = 1;
         depth = -99;
-        global.canSelect = true;
         selected = false;
         // Middle
         if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 346) &amp;&amp; (y &lt;= 586)) {
@@ -109,7 +108,6 @@ if (deleted == 1) {
     image_xscale = 0.5;
     image_yscale = 0.5;
     depth = -100;
-    global.canSelect = true;
     selected = false;
     move_towards_point(obj_bodybutton.x, obj_bodybutton.y, 100);
 }
@@ -141,7 +139,6 @@ if (deleted == 1) {
     x = mouse_x;
     y = mouse_y;
     depth = -100;
-    global.canSelect = false;
     selected = true;
 }
 </string>
