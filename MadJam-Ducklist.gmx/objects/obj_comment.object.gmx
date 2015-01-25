@@ -25,13 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.comment = 1
-draw_set_color(c_black)
-draw_set_font(textFont)
-draw_text(x,y+20, "You have recieved a text from one # of your coworkers:")
-draw_text(x,y+40,global.comment)
-
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
