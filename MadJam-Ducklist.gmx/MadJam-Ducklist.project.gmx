@@ -71,6 +71,16 @@
       <sprite>sprites\teddyLegs</sprite>
       <sprite>sprites\trexLegs</sprite>
       <sprite>sprites\whiteKnightLegs</sprite>
+      <sprite>sprites\teddylegstext</sprite>
+      <sprite>sprites\dresstext</sprite>
+      <sprite>sprites\whiteknighttext</sprite>
+      <sprite>sprites\trexlegstext</sprite>
+      <sprite>sprites\finstext</sprite>
+      <sprite>sprites\soldlegstext</sprite>
+      <sprite>sprites\robolegstext</sprite>
+      <sprite>sprites\jetbootstext</sprite>
+      <sprite>sprites\goattext</sprite>
+      <sprite>sprites\cowboylegstext</sprite>
     </sprites>
     <sprites name="leftarms">
       <sprite>sprites\alienLarm</sprite>
@@ -83,6 +93,16 @@
       <sprite>sprites\tentacleLarm</sprite>
       <sprite>sprites\tRexLarm</sprite>
       <sprite>sprites\whiteKnightLarm</sprite>
+      <sprite>sprites\alienlarmtext</sprite>
+      <sprite>sprites\teddylarmtext</sprite>
+      <sprite>sprites\biceplarmtext</sprite>
+      <sprite>sprites\knightlarmtext</sprite>
+      <sprite>sprites\trexlarmtext</sprite>
+      <sprite>sprites\hooflarmtext</sprite>
+      <sprite>sprites\roboclawlarmtext</sprite>
+      <sprite>sprites\tentlarmtext</sprite>
+      <sprite>sprites\biolarmtext</sprite>
+      <sprite>sprites\gunlarmtext</sprite>
     </sprites>
     <sprites name="rightarms">
       <sprite>sprites\alienRarm</sprite>
@@ -95,6 +115,16 @@
       <sprite>sprites\tentacleRarm</sprite>
       <sprite>sprites\tRexRarm</sprite>
       <sprite>sprites\whiteKnightRarm</sprite>
+      <sprite>sprites\biorarmtext</sprite>
+      <sprite>sprites\knightrarmtext</sprite>
+      <sprite>sprites\tentrarmtext</sprite>
+      <sprite>sprites\trexrarmtext</sprite>
+      <sprite>sprites\hoofrarmtext</sprite>
+      <sprite>sprites\teddyrarmtext</sprite>
+      <sprite>sprites\biceprarmtext</sprite>
+      <sprite>sprites\roborarmtext</sprite>
+      <sprite>sprites\gunrarmtext</sprite>
+      <sprite>sprites\alienrarmtext</sprite>
     </sprites>
     <sprites name="torsos">
       <sprite>sprites\robotTorso</sprite>
@@ -173,9 +203,9 @@
       <object>objects\obj_rightarmtab</object>
       <object>objects\obj_legstab</object>
     </objects>
-    <object>objects\obj_tmptxt2</object>
-    <object>objects\obj_blocker</object>
-    <object>objects\obj_tmptxt1</object>
+    <object>objects\obj_leftarmtab</object>
+    <object>objects\obj_headtab</object>
+    <object>objects\obj_torsotab</object>
     <object>objects\obj_tmp2</object>
     <object>objects\obj_background</object>
     <object>objects\obj_tmp1</object>
@@ -265,6 +295,16 @@
       <object>objects\bobj_trexLegs</object>
       <object>objects\obj_whiteKnightLegs</object>
       <object>objects\bobj_whiteKnightLegs</object>
+      <object>objects\rltext</object>
+      <object>objects\jbtext</object>
+      <object>objects\cltext</object>
+      <object>objects\gltext</object>
+      <object>objects\soldltext</object>
+      <object>objects\ftext</object>
+      <object>objects\dtext</object>
+      <object>objects\trltext</object>
+      <object>objects\wkltext</object>
+      <object>objects\tltext</object>
     </objects>
     <objects name="rightarms">
       <object>objects\obj_alienRarm</object>
@@ -287,6 +327,16 @@
       <object>objects\bobj_trexRarm</object>
       <object>objects\obj_whiteKnightRarm</object>
       <object>objects\bobj_whiteKnightRarm</object>
+      <object>objects\krarmtext</object>
+      <object>objects\tedrarmtext</object>
+      <object>objects\bicrarmtext</object>
+      <object>objects\grarmtext</object>
+      <object>objects\ararmtext</object>
+      <object>objects\rrarmtext</object>
+      <object>objects\hrarmtext</object>
+      <object>objects\trrarmtext</object>
+      <object>objects\trarmtext</object>
+      <object>objects\brarmtext</object>
     </objects>
     <objects name="leftarms">
       <object>objects\obj_alienLarm</object>
@@ -309,6 +359,16 @@
       <object>objects\bobj_trexLarm</object>
       <object>objects\obj_whiteKnightLarm</object>
       <object>objects\bobj_whiteKnightLarm</object>
+      <object>objects\trlarmtext</object>
+      <object>objects\tedlarmtext</object>
+      <object>objects\glarmtext</object>
+      <object>objects\blarmtext</object>
+      <object>objects\tlarmtext</object>
+      <object>objects\rclarmtext</object>
+      <object>objects\klarmtext</object>
+      <object>objects\hlarmtext</object>
+      <object>objects\biclarmtext</object>
+      <object>objects\alarmtext</object>
     </objects>
   </objects>
   <rooms name="rooms">
