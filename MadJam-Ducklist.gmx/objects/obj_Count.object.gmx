@@ -29,7 +29,7 @@
 global.markCount = 0
 global.ifBoss = 0
 global.turnScore = 0
-global.totalScore = 25
+global.totalScore = 50
 </string>
           </argument>
         </arguments>

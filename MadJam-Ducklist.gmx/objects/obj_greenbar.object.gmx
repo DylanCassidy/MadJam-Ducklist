@@ -41,8 +41,6 @@
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="9" enumb="32">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -59,20 +57,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if (image_xscale = 1) {
-    show_message("You win! Your company is a worldwide success!!!");
-} else {
-    image_xscale += 0.1;
-}
-
-
+            <string>updatedScore = 50
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="13">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -89,12 +80,23 @@ if (image_xscale = 1) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if (image_xscale = 0) {
-    show_message("You lose, mwahaha. Your company is bankrupt.");
-} else {
-    image_xscale -= 0.1;
-}
+            <string>if(image_xscale &lt;=0){
+           show_message("You lose, mwahaha. bla bla Your company is bankrupt.");
+       }
+else if(image_xscale &gt;= 1.0){
+           show_message("You win! Your company is a worldwide success!!!"); 
+       }
+else if (updatedScore &lt; global.totalScore){
+        diff = global.totalScore- updatedScore
+        diff = diff*0.01
+        image_xscale +=diff;
+   }
+else if (updatedScore &gt; global.totalScore){
+        diff =updatedScore-global.totalScore
+        diff = diff*0.01
+        image_xscale -=diff;
+    }
+updatedScore = global.totalScore
 </string>
           </argument>
         </arguments>

@@ -41,11 +41,12 @@ if(global.ifBoss = 1){
         //score doesn't change here
       }
       else if (global.turnScore &gt;= 18 &amp;&amp; global.turnScore &lt;= 19){ 
-        global.totalScore -=10
+        global.totalScore +=-10
         }
       else if (global.turnScore &lt;= 17){
-        global.totalScore -=20
+        global.totalScore +=-20
         }
+       global.ifBoss = 0
 }
 else { 
     if (global.turnScore &gt;= 16){ 
@@ -59,9 +60,10 @@ else {
     }
     else if (global.turnScore &gt;= 10 &amp;&amp; global.turnScore &lt;= 11){ 
         //score doesn't change here
+        global.totalScore += -10
     } 
     else if (global.totalScore &lt;= 9) {
-        global.totalScore -= 20
+        global.totalScore += -10
     }
 }
 global.turnScore = 0
