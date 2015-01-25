@@ -162,63 +162,113 @@
     <object>objects\obj_allToys</object>
     <objects name="heads">
       <object>objects\obj_alienHead</object>
+      <object>objects\bobj_alienHead</object>
       <object>objects\obj_cowboyHead</object>
+      <object>objects\bobj_cowboyHead</object>
       <object>objects\obj_robobrainHead</object>
+      <object>objects\bobj_robobrainHead</object>
       <object>objects\obj_sharkHead</object>
+      <object>objects\bobj_sharkHead</object>
       <object>objects\obj_soldierHead</object>
+      <object>objects\bobj_soldierHead</object>
       <object>objects\obj_teddyHead</object>
+      <object>objects\bobj_teddyHead</object>
       <object>objects\obj_trexHead</object>
+      <object>objects\bobj_trexHead</object>
       <object>objects\obj_unicornHead</object>
+      <object>objects\bobj_unicornHead</object>
       <object>objects\obj_whiteKnightHead</object>
+      <object>objects\bobj_whiteKnightHead</object>
       <object>objects\obj_wizardHead</object>
+      <object>objects\bobj_wizardHead</object>
     </objects>
     <objects name="torsos">
       <object>objects\obj_robotTorso</object>
+      <object>objects\bobj_robotTorso</object>
       <object>objects\obj_alienTorso</object>
+      <object>objects\bobj_alienTorso</object>
       <object>objects\obj_cowTorso</object>
+      <object>objects\bobj_cowTorso</object>
       <object>objects\obj_sixPackTorso</object>
+      <object>objects\bobj_sixPackTorso</object>
       <object>objects\obj_spaceTorso</object>
+      <object>objects\bobj_spaceTorso</object>
       <object>objects\obj_teddyTorso</object>
+      <object>objects\bobj_teddyTorso</object>
       <object>objects\obj_trexTorso</object>
+      <object>objects\bobj_trexTorso</object>
       <object>objects\obj_whiteKnightTorso</object>
+      <object>objects\bobj_whiteKnightTorso</object>
       <object>objects\obj_wizardTorso</object>
+      <object>objects\bobj_wizardTorso</object>
       <object>objects\obj_warTorso</object>
+      <object>objects\bobj_warTorso</object>
     </objects>
     <objects name="legs">
       <object>objects\obj_cowboyLegs</object>
+      <object>objects\bobj_cowboyLegs</object>
       <object>objects\obj_dressLegs</object>
+      <object>objects\bobj_dressLegs</object>
       <object>objects\obj_flipperLegs</object>
+      <object>objects\bobj_flipperLegs</object>
       <object>objects\obj_flooreLegs</object>
+      <object>objects\bobj_flooreLegs</object>
       <object>objects\obj_goatLegs</object>
+      <object>objects\bobj_goatLegs</object>
       <object>objects\obj_jetBootsLegs</object>
+      <object>objects\bobj_jetBootsLegs</object>
       <object>objects\obj_warLegs</object>
+      <object>objects\bobj_warLegs</object>
       <object>objects\obj_teddyLegs</object>
+      <object>objects\bobj_teddyLegs</object>
       <object>objects\obj_trexLegs</object>
+      <object>objects\bobj_trexLegs</object>
       <object>objects\obj_whiteKnightLegs</object>
+      <object>objects\bobj_whiteKnightLegs</object>
     </objects>
     <objects name="rightarms">
       <object>objects\obj_alienRarm</object>
+      <object>objects\bobj_alienRarm</object>
       <object>objects\obj_bionicRarm</object>
+      <object>objects\bobj_bionicRarm</object>
       <object>objects\obj_robotGunRarm</object>
+      <object>objects\bobj_robotGunRarm</object>
       <object>objects\obj_gunRarm</object>
+      <object>objects\bobj_gunRarm</object>
       <object>objects\obj_hoofRarm</object>
+      <object>objects\bobj_hoofRarm</object>
       <object>objects\obj_bicepRarm</object>
+      <object>objects\bobj_bicepRarm</object>
       <object>objects\obj_teddyRarm</object>
+      <object>objects\bobj_teddyRarm</object>
       <object>objects\obj_tentacleRarm</object>
+      <object>objects\bobj_tentacleRarm</object>
       <object>objects\obj_trexRarm</object>
+      <object>objects\bobj_trexRarm</object>
       <object>objects\obj_whiteKnightRarm</object>
+      <object>objects\bobj_whiteKnightRarm</object>
     </objects>
     <objects name="leftarms">
       <object>objects\obj_alienLarm</object>
+      <object>objects\bobj_alienLarm</object>
       <object>objects\obj_bionicLarm</object>
+      <object>objects\bobj_bionicLarm</object>
       <object>objects\obj_clawLarm</object>
+      <object>objects\bobj_clawLarm</object>
       <object>objects\obj_gunLarm</object>
+      <object>objects\bobj_gunLarm</object>
       <object>objects\obj_hoofLarm</object>
+      <object>objects\bobj_hoofLarm</object>
       <object>objects\obj_bicepLarm</object>
+      <object>objects\bobj_bicepLarm</object>
       <object>objects\obj_teddyLarm</object>
+      <object>objects\bobj_teddyLarm</object>
       <object>objects\obj_tentacleLarm</object>
+      <object>objects\bobj_tentacleLarm</object>
       <object>objects\obj_trexLarm</object>
+      <object>objects\bobj_trexLarm</object>
       <object>objects\obj_whiteKnightLarm</object>
+      <object>objects\bobj_whiteKnightLarm</object>
     </objects>
   </objects>
   <rooms name="rooms">
