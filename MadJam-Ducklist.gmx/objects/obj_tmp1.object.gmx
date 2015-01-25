@@ -47,7 +47,7 @@ action = 3
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
-        <whoName>obj_tmptxt1</whoName>
+        <whoName>obj_torsotab</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
@@ -69,7 +69,7 @@ action = 3
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_tmptxt1</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
