@@ -43,8 +43,8 @@
   <objects name="objects">
     <object>objects\obj_head</object>
     <object>objects\obj_body</object>
-    <object>objects\obj_button1</object>
     <object>objects\obj_button2</object>
+    <object>objects\obj_button1</object>
     <object>objects\obj_button3</object>
     <object>objects\obj_controller</object>
     <object>objects\obj_larm</object>
@@ -64,6 +64,15 @@
       <object>objects\obj_bossText4</object>
       <object>objects\obj_bossText5</object>
       <object>objects\obj_markText1</object>
+      <object>objects\obj_markText2</object>
+      <object>objects\obj_markText3</object>
+      <object>objects\obj_markText4</object>
+      <object>objects\obj_markText5</object>
+      <object>objects\obj_markText6</object>
+      <object>objects\obj_markText7</object>
+      <object>objects\obj_markText8</object>
+      <object>objects\obj_markText9</object>
+      <object>objects\obj_markText10</object>
     </objects>
     <object>objects\obj_askBoss</object>
     <object>objects\obj_askMark</object>
