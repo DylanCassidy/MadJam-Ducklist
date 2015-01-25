@@ -49,6 +49,16 @@
       <sprite>sprites\unicornHead</sprite>
       <sprite>sprites\whiteKnightHead</sprite>
       <sprite>sprites\wizardHead</sprite>
+      <sprite>sprites\whiteknightheadtext</sprite>
+      <sprite>sprites\alientexthead</sprite>
+      <sprite>sprites\wizardheadtext</sprite>
+      <sprite>sprites\cowboytexthead</sprite>
+      <sprite>sprites\robobraintexthead</sprite>
+      <sprite>sprites\sharkheadtext</sprite>
+      <sprite>sprites\soldiertexthead</sprite>
+      <sprite>sprites\teddyheadtext</sprite>
+      <sprite>sprites\trexheadtext</sprite>
+      <sprite>sprites\unicornheadtext</sprite>
     </sprites>
     <sprites name="legs">
       <sprite>sprites\cowboyLegs</sprite>
@@ -97,6 +107,16 @@
       <sprite>sprites\whiteKnightTorso</sprite>
       <sprite>sprites\wizardTorso</sprite>
       <sprite>sprites\warTorso</sprite>
+      <sprite>sprites\soldiertorsotext</sprite>
+      <sprite>sprites\robottorsotext</sprite>
+      <sprite>sprites\trextorsotext</sprite>
+      <sprite>sprites\wizardtorsotext</sprite>
+      <sprite>sprites\sixpacktorsotext</sprite>
+      <sprite>sprites\whiteknighttorsotext</sprite>
+      <sprite>sprites\spacetorsotext</sprite>
+      <sprite>sprites\teddytorsotext</sprite>
+      <sprite>sprites\cowtorsotext</sprite>
+      <sprite>sprites\alientorsotext</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -181,6 +201,16 @@
       <object>objects\bobj_whiteKnightHead</object>
       <object>objects\obj_wizardHead</object>
       <object>objects\bobj_wizardHead</object>
+      <object>objects\shtext</object>
+      <object>objects\soldhtext</object>
+      <object>objects\ahtext</object>
+      <object>objects\trexhtext</object>
+      <object>objects\uhtext</object>
+      <object>objects\thtext</object>
+      <object>objects\chtext</object>
+      <object>objects\rbhtext</object>
+      <object>objects\whtext</object>
+      <object>objects\wkhtext</object>
     </objects>
     <objects name="torsos">
       <object>objects\obj_robotTorso</object>
@@ -203,6 +233,16 @@
       <object>objects\bobj_wizardTorso</object>
       <object>objects\obj_warTorso</object>
       <object>objects\bobj_warTorso</object>
+      <object>objects\rttext</object>
+      <object>objects\tttext</object>
+      <object>objects\cttext</object>
+      <object>objects\attext</object>
+      <object>objects\wkttext</object>
+      <object>objects\sttext</object>
+      <object>objects\trexttext</object>
+      <object>objects\wttext</object>
+      <object>objects\spttext</object>
+      <object>objects\soldttext</object>
     </objects>
     <objects name="legs">
       <object>objects\obj_cowboyLegs</object>

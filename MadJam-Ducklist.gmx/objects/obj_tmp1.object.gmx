@@ -69,7 +69,7 @@ action = 3
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_tmptxt1</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
