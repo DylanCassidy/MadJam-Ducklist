@@ -94,28 +94,34 @@ else if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_h
         image_yscale = 1;
         depth = -99;
         selected = false;
+        global.fantasy += fantasy
+        global.historical += historical
+        global.sciFi += scifi
+        global.animal += animal
+        global.cute += cute
+        global.action += action
         // Top
         if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 106) &amp;&amp; (y &lt;= 346)) {
             x = 950;
             y = 226;
+            image_angle = 180;
         }
         // Bottom
         else if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 586) &amp;&amp; (y &lt;= 826)) {
             x = 950;
             y = 706;
-            image_angle = 180;
         }
         // Left
         else if ((x &gt;= 590) &amp;&amp; (x &lt;= 830) &amp;&amp; (y &gt;= 346) &amp;&amp; (y &lt;= 586)) {
             x = 710;
             y = 466;
-            image_angle = 90;
+            image_angle = 270;
         }
         // Right
         else if ((x &gt;= 1070) &amp;&amp; (x &lt;= 1310) &amp;&amp; (y &gt;= 346) &amp;&amp; (y &lt;= 586)) {
             x = 1190;
             y = 466;
-            image_angle = 270;
+            image_angle = 90;
         }
         // BAD
         else {
@@ -136,6 +142,12 @@ if (deleted == 1) {
     image_angle = 0;
     selected = false;
     move_towards_point(obj_controller.x, obj_controller.y, 100);
+    global.fantasy -= fantasy
+    global.historical -= historical
+    global.sciFi -= scifi
+    global.animal -= animal
+    global.cute -= cute
+    global.action -= action
 }
 </string>
           </argument>
@@ -167,6 +179,12 @@ if (deleted == 1) {
     y = mouse_y;
     depth = -100;
     selected = true;
+    global.fantasy -= fantasy
+    global.historical -= historical
+    global.sciFi -= scifi
+    global.animal -= animal
+    global.cute -= cute
+    global.action -= action
 }
 </string>
           </argument>

@@ -95,6 +95,12 @@ else if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_h
         image_yscale = 1;
         depth = -99;
         selected = false;
+        global.fantasy += fantasy
+        global.historical += historical
+        global.sciFi += scifi
+        global.animal += animal
+        global.cute += cute
+        global.action += action
         // Top
         if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 106) &amp;&amp; (y &lt;= 346)) {
             x = 950;
@@ -137,6 +143,12 @@ if (deleted == 1) {
     image_angle = 0;
     selected = false;
     move_towards_point(obj_controller.x, obj_controller.y, 100);
+    global.fantasy -= fantasy
+    global.historical -= historical
+    global.sciFi -= scifi
+    global.animal -= animal
+    global.cute -= cute
+    global.action -= action
 }
 </string>
           </argument>
@@ -168,6 +180,12 @@ if (deleted == 1) {
     y = mouse_y;
     depth = -100;
     selected = true;
+    global.fantasy -= fantasy
+    global.historical -= historical
+    global.sciFi -= scifi
+    global.animal -= animal
+    global.cute -= cute
+    global.action -= action
 }
 </string>
           </argument>

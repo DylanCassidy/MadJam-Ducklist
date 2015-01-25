@@ -160,6 +160,12 @@ if (deleted == 1) {
     y = mouse_y;
     depth = -100;
     selected = true;
+    global.fantasy += fantasy
+    global.historical += historical
+    global.sciFi += scifi
+    global.animal += animal
+    global.cute += cute
+    global.action += action
 }
 </string>
           </argument>
