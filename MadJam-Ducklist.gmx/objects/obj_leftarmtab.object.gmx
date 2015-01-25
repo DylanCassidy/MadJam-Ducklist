@@ -26,6 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>global.leftarmList = ds_list_create();
+global.leftarmList[| 0] = obj_alienLarm;
+global.leftarmList[| 1] = obj_trexLarm;
+global.leftarmList[| 2] = obj_tentacleLarm;
+global.leftarmList[| 3] = obj_teddyLarm;
+global.leftarmList[| 4] = obj_bicepLarm;
+global.leftarmList[| 5] = obj_gunLarm;
+global.leftarmList[| 6] = obj_hoofLarm;
+global.leftarmList[| 7] = obj_bionicLarm;
+global.leftarmList[| 8] = obj_whiteKnightLarm;
+global.leftarmList[| 9] = obj_clawLarm;
 </string>
           </argument>
         </arguments>
@@ -48,9 +58,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*w = 128;
+            <string>for (i=0; i&lt;50; i++){
+    with(global.allToysList[| i]){
+        instance_destroy();
+    }
+}
+
+w = 128;
 z = 0;
-for (i = 0; i &lt; 2; i += 1)
+for (i = 0; i &lt; 10; i += 1)
    {
         if (i mod 2 = 0){
             w = 128
@@ -63,7 +79,7 @@ for (i = 0; i &lt; 2; i += 1)
         instance_create(w, z, global.leftarmList[| i]);
    }
    
-*/
+
 </string>
           </argument>
         </arguments>

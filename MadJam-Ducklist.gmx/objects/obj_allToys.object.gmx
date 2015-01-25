@@ -26,8 +26,22 @@
           <argument>
             <kind>1</kind>
             <string>global.allToysList = ds_list_create();
-global.allToysList[| 0] = obj_tmp1;
-global.allToysList[| 1] = obj_tmp2;
+for (i=0; i&lt;10; i++){
+    ds_list_add(global.allToysList, global.headList[| i]);
+}
+for (i=0; i&lt;10; i++){
+    ds_list_add(global.allToysList, global.torsoList[| i]);
+}
+for (i=0; i&lt;10; i++){
+    ds_list_add(global.allToysList, global.legsList[| i]);
+}
+for (i=0; i&lt;10; i++){
+    ds_list_add(global.allToysList, global.rightarmList[| i]);
+}
+for (i=0; i&lt;10; i++){
+    ds_list_add(global.allToysList, global.leftarmList[| i]);
+}
+
 </string>
           </argument>
         </arguments>

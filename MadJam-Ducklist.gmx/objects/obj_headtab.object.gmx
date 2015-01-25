@@ -26,8 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>global.headList = ds_list_create();
-//global.headList[| 0] = obj_tmp1;
-//global.headList[| 1] = obj_tmp2;
+global.headList[| 0] = obj_alienHead;
+global.headList[| 1] = obj_robobrainHead;
+global.headList[| 2] = obj_unicornHead;
+global.headList[| 3] = obj_soldierHead;
+global.headList[| 4] = obj_whiteKnightHead;
+global.headList[| 5] = obj_cowboyHead;
+global.headList[| 6] = obj_sharkHead;
+global.headList[| 7] = obj_teddyHead;
+global.headList[| 8] = obj_trexHead;
+global.headList[| 9] = obj_wizardHead;
 </string>
           </argument>
         </arguments>
@@ -50,9 +58,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*w = 128;
+            <string>
+//global.allToysList[| 0] = obj_tmp1;
+
+for (i=0; i&lt;50; i++){
+    with(global.allToysList[| i]){
+        if(global.allToysList[| i].x &lt; 550){
+            instance_destroy();
+        }
+    }
+}
+
+w = 128;
 z = 0;
-for (i = 0; i &lt; 3; i += 1)
+for (i = 0; i &lt; 10; i += 1)
    {
         if (i mod 2 = 0){
             w = 128
@@ -63,7 +82,7 @@ for (i = 0; i &lt; 3; i += 1)
             w = 320
         }
         instance_create(w, z, global.headList[| i]);
-   }*/
+   }
 </string>
           </argument>
         </arguments>
