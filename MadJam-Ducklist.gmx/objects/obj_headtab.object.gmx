@@ -26,16 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>global.headList = ds_list_create();
-global.headList[| 0] = obj_alienHead;
-global.headList[| 1] = obj_robobrainHead;
-global.headList[| 2] = obj_unicornHead;
-global.headList[| 3] = obj_soldierHead;
-global.headList[| 4] = obj_whiteKnightHead;
-global.headList[| 5] = obj_cowboyHead;
-global.headList[| 6] = obj_sharkHead;
-global.headList[| 7] = obj_teddyHead;
-global.headList[| 8] = obj_trexHead;
-global.headList[| 9] = obj_wizardHead;
+global.headList[| 0] = bobj_alienHead;
+global.headList[| 1] = bobj_robobrainHead;
+global.headList[| 2] = bobj_unicornHead;
+global.headList[| 3] = bobj_soldierHead;
+global.headList[| 4] = bobj_whiteKnightHead;
+global.headList[| 5] = bobj_cowboyHead;
+global.headList[| 6] = bobj_sharkHead;
+global.headList[| 7] = bobj_teddyHead;
+global.headList[| 8] = bobj_trexHead;
+global.headList[| 9] = bobj_wizardHead;
 </string>
           </argument>
         </arguments>
@@ -63,9 +63,7 @@ global.headList[| 9] = obj_wizardHead;
 
 for (i=0; i&lt;50; i++){
     with(global.allToysList[| i]){
-        if(x &lt; 550){
-            instance_destroy();
-        }
+        instance_destroy();
     }
 }
 

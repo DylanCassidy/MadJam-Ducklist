@@ -32,11 +32,11 @@ ds_list_add(global.usedMark, global.markCount)
 if(global.ifBoss = 1){ 
      if(global.turnScore &gt;= 26){
           global.totalScore +=35
-          global.comment = "WOW! THAT TOY IS AMAZING!"
+          global.comment =  "TOY GOD, TOY, GOD, TOY GOD, TOY GOD!"
         }
      else if(global.turnScore &gt;= 24 &amp;&amp; global.turnScore&lt;=25){
         global.totalScore += 20
-        global.comment = "Oh, thank goodness you know what you’re doing!# I can’t help think that we’ll need a bigger payoff!"
+        global.comment = "I...can’t believe that worked! SUGOI DESU NE!"
         }
      else if (global.turnScore &gt;=22 &amp;&amp; global.turnScore&lt;=23){
         global.totalScore += 10
@@ -44,11 +44,14 @@ if(global.ifBoss = 1){
         }
      else if (global.turnScore &gt;=20 &amp;&amp; global.turnScore &lt;= 21){ 
         //score doesn't change here
+        global.comment = "Did you seriously just make that piece of crap? A monkey could do better work!"
       }
       else if (global.turnScore &gt;= 18 &amp;&amp; global.turnScore &lt;= 19){ 
         global.totalScore +=-10
+        global.comment = "Your steely eyed co-workers seem to be sharpening pitchforks."
         }
       else if (global.turnScore &lt;= 17){
+        global.comment = "Game over man, game over!"
         global.totalScore +=-20
         }
        global.ifBoss = 0
@@ -56,18 +59,23 @@ if(global.ifBoss = 1){
 else if (global.ifBoss = 0) { 
     if (global.turnScore &gt;= 16){ 
         global.totalScore += 20
+        global.comment = "WOW!THAT TOY IS AMAZING!"
     }
     else if (global.turnScore &gt;= 14 &amp;&amp; global.turnScore &lt;=15) {
         global.totalScore += 15
+        global.comment = "Oh, thank goodness you know what you’re doing!# I can’t help think that we’ll need a bigger payoff!"
     }
     else if (global.turnScore &gt;= 12 &amp;&amp; global.turnScore &lt;= 13){ 
         global.totalScore += 10
+        global.comment = "“Not bad, but toys like those aren’t going to save our company."
     }
     else if (global.turnScore &gt;= 10 &amp;&amp; global.turnScore &lt;= 11){ 
+        global.comment = "You bumbling moron. We’ll all be out of a job within a week. Get it together!"
         //score doesn't change here
     } 
     else if (global.turnScore &lt;= 9) {
         global.totalScore +=-10
+        global.comment = "Are you stupid? That toy sucked! SUCKED, SUCKED, SUCKED!"
     }
 }
 global.turnScore = 0
@@ -134,16 +142,33 @@ else if (global.markCount = 5){
         instance_destroy()
     }
 }
-else {
-    if (obj_greenbar = 1){ 
-        show_message("You win!! You are the ultimate toymaker");
-        room_goto(rm_creditscreen);
-         }
-    else{
-        show_message("You lose!! You couldn't save the company in time!");
-        }
+else if(global.markCount = 6){
+    with(obj_markText3){
+        instance_destroy()
+    }
+}
+else if(global.markCount = 7){
+    with(obj_markText4){
+        instance_destroy()
+    }
+}
+else if (global.markCount = 8){
+    with(obj_markText5){
+        instance_destroy()
+    }
+}
+else if(global.markCount = 9){
+    with(obj_markText3){
+        instance_destroy()
+    }
+}
+else if(global.markCount = 10){
+    with(obj_markText4){
+        instance_destroy()
+    }
 }
 }
+show_message(global.comment);
 instance_create(x,y,obj_askBoss); 
 instance_create(x+100,y,obj_askMark);
 global.ifBoss = 0

@@ -75,7 +75,7 @@ global.comment = "You are doing great!"
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mainTheme</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>
