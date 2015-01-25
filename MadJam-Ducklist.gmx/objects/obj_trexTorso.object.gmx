@@ -30,6 +30,14 @@ image_yscale = 0.5;
 depth = -100;
 selected = true;
 deleted = 0;
+
+
+fantasy = 0
+historical = 4
+scifi = 0
+animal = 5
+cute = 2
+action = 1
 </string>
           </argument>
         </arguments>
