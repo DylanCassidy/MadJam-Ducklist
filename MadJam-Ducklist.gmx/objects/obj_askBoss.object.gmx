@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>global.ifBoss = 1
 
+instance_create(x,y+40,obj_comment); 
 checked = 0
 while(checked =0){
     current = irandom(5)
