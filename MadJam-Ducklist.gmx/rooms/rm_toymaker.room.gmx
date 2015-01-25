@@ -52,10 +52,10 @@
   </views>
   <instances>
     <instance objName="obj_controller" x="256" y="96" name="inst_7A74D182" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_headbutton" x="1568" y="96" name="inst_018F294E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_headbutton" x="256" y="96" name="inst_018F294E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bodybutton" x="256" y="96" name="inst_8B443233" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_clock" x="1536" y="928" name="inst_5A68320C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Count" x="0" y="0" name="inst_74209911" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bodybutton" x="1568" y="160" name="inst_8B443233" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_leftarmtab" x="352" y="64" name="inst_E17DAA0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_headtab" x="224" y="64" name="inst_BA0F20E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_legstab" x="288" y="96" name="inst_9A7D85DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

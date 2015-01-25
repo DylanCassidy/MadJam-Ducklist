@@ -88,13 +88,47 @@ else if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_bodybutton.x, obj_b
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.canSelect and deleted == 0) {
+            <string>if (selected) {
+    if ((x &gt;= 590) &amp;&amp; (x &lt;= 1310) &amp;&amp; (y &gt;= 106) &amp;&amp; (y &lt;= 826)) {
+        image_xscale = 1;
+        image_yscale = 1;
+        depth = -99;
+        selected = false;
+        global.fantasy += fantasy
+        global.historical += historical
+        global.sciFi += scifi
+        global.animal += animal
+        global.cute += cute
+        global.action += action
+        // Middle
+        if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 346) &amp;&amp; (y &lt;= 586)) {
+            x = 950;
+            y = 466;
+        }
+        // BAD
+        else {
+            deleted = 1;
+        }
+        if !place_empty(x, y) {
+            deleted = 1;
+        }
+    }
+    else {
+        deleted = 1;
+    }
+}
+if (deleted == 1) {
     image_xscale = 0.5;
     image_yscale = 0.5;
-    x = mouse_x;
-    y = mouse_y;
     depth = -100;
-    selected = true;
+    selected = false;
+    move_towards_point(obj_controller.x, obj_controller.y, 100);
+    global.fantasy -= fantasy
+    global.historical -= historical
+    global.sciFi -= scifi
+    global.animal -= animal
+    global.cute -= cute
+    global.action -= action
 }
 </string>
           </argument>
@@ -125,6 +159,12 @@ else if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_bodybutton.x, obj_b
     y = mouse_y;
     depth = -100;
     selected = true;
+    global.fantasy -= fantasy
+    global.historical -= historical
+    global.sciFi -= scifi
+    global.animal -= animal
+    global.cute -= cute
+    global.action -= action
 }
 </string>
           </argument>
