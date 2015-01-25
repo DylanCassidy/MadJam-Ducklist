@@ -78,6 +78,34 @@ if (global.markCount = 1){
         instance_create(x,y,obj_askMark); 
     }
 }
+else if(global.markCount = 2){
+    with(obj_markText2){
+        instance_destroy()
+        instance_create(x,y,obj_askBoss); 
+        instance_create(x+100,y,obj_askMark);
+    }
+}
+else if(global.markCount = 3){
+    with(obj_markText3){
+        instance_destroy()
+        instance_create(x,y,obj_askBoss); 
+        instance_create(x+100,y,obj_askMark);
+    }
+}
+else if(global.markCount = 4){
+    with(obj_markText4){
+        instance_destroy()
+        instance_create(x,y,obj_askBoss); 
+        instance_create(x+100,y,obj_askMark);
+    }
+}
+else if (global.markCount = 5){
+    with(obj_markText5){
+        instance_destroy()
+        instance_create(x,y,obj_askBoss); 
+        instance_create(x+100,y,obj_askMark);
+    }
+}
 instance_destroy()
 </string>
           </argument>
