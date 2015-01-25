@@ -27,11 +27,9 @@
             <kind>1</kind>
             <string>image_xscale = 0.5;
 image_yscale = 0.5;
-selected = true;
 depth = -100;
+selected = true;
 deleted = 0;
-diffX = sprite_get_width(obj_head)/2;
-diffY = sprite_get_height(obj_head)/2;
 </string>
           </argument>
         </arguments>
@@ -58,8 +56,7 @@ diffY = sprite_get_height(obj_head)/2;
     x = mouse_x;
     y = mouse_y;
 }
-if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbutton.y) &lt;= (sprite_get_width(obj_head)/4)))
-{
+else if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbutton.y) &lt;= (sprite_get_width(obj_head)/4))) {
    instance_destroy();
 }
 </string>
@@ -88,8 +85,8 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbu
     if ((x &gt;= 590) &amp;&amp; (x &lt;= 1310) &amp;&amp; (y &gt;= 106) &amp;&amp; (y &lt;= 826)) {
         image_xscale = 1;
         image_yscale = 1;
+        depth = -99;
         selected = false;
-        global.canSelect = true;
         // Top
         if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 106) &amp;&amp; (y &lt;= 346)) {
             x = 950;
@@ -113,28 +110,25 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbu
             y = 466;
             image_angle = 270;
         }
+        // BAD
         else {
-            image_xscale = 0.5;
-            image_yscale = 0.5;
-            move_towards_point(obj_headbutton.x, obj_headbutton.y, 50);
             deleted = 1;
         }
         if !place_empty(x, y) {
-            image_xscale = 0.5;
-            image_yscale = 0.5;
-            move_towards_point(obj_headbutton.x, obj_headbutton.y, 50);
             deleted = 1;
         }
-        depth = -100;
     }
     else {
-        image_xscale = 0.5;
-        image_yscale = 0.5;
-        selected = false;
-        global.canSelect = true;
-        move_towards_point(obj_headbutton.x, obj_headbutton.y, 50);
         deleted = 1;
     }
+}
+if (deleted == 1) {
+    image_xscale = 0.5;
+    image_yscale = 0.5;
+    depth = -100;
+    image_angle = 0;
+    selected = false;
+    move_towards_point(obj_headbutton.x, obj_headbutton.y, 100);
 }
 </string>
           </argument>
@@ -162,11 +156,10 @@ if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_headbutton.x, obj_headbu
     image_xscale = 0.5;
     image_yscale = 0.5;
     image_angle = 0;
-    selected = true;
-    global.canSelect = false;
-    depth = -100;
     x = mouse_x;
     y = mouse_y;
+    depth = -100;
+    selected = true;
 }
 </string>
           </argument>
