@@ -26,16 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>global.legsList = ds_list_create();
-global.legsList[| 0] = obj_flipperLegs;
-global.legsList[| 1] = obj_jetBootsLegs;
-global.legsList[| 2] = obj_warLegs;
-global.legsList[| 3] = obj_whiteKnightLegs;
-global.legsList[| 4] = obj_dressLegs;
-global.legsList[| 5] = obj_teddyLegs;
-global.legsList[| 6] = obj_flooreLegs;
-global.legsList[| 7] = obj_goatLegs;
-global.legsList[| 8] = obj_trexLegs;
-global.legsList[| 9] = obj_cowboyLegs;
+global.legsList[| 0] = bobj_flipperLegs;
+global.legsList[| 1] = bobj_jetBootsLegs;
+global.legsList[| 2] = bobj_warLegs;
+global.legsList[| 3] = bobj_whiteKnightLegs;
+global.legsList[| 4] = bobj_dressLegs;
+global.legsList[| 5] = bobj_teddyLegs;
+global.legsList[| 6] = bobj_flooreLegs;
+global.legsList[| 7] = bobj_goatLegs;
+global.legsList[| 8] = bobj_trexLegs;
+global.legsList[| 9] = bobj_cowboyLegs;
 </string>
           </argument>
         </arguments>
