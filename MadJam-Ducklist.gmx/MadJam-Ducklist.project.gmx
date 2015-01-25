@@ -36,6 +36,66 @@
     <sprite>sprites\spr_rightarmtab</sprite>
     <sprite>sprites\spr_headtab</sprite>
     <sprite>sprites\spr_background</sprite>
+    <sprites name="heads">
+      <sprite>sprites\alienHead</sprite>
+      <sprite>sprites\cowboyHead</sprite>
+      <sprite>sprites\robobrainHead</sprite>
+      <sprite>sprites\sharkHead</sprite>
+      <sprite>sprites\soldierHead</sprite>
+      <sprite>sprites\teddyHead</sprite>
+      <sprite>sprites\trexHead</sprite>
+      <sprite>sprites\unicornHead</sprite>
+      <sprite>sprites\whiteKnightHead</sprite>
+      <sprite>sprites\wizardHead</sprite>
+    </sprites>
+    <sprites name="legs">
+      <sprite>sprites\cowboyLegs</sprite>
+      <sprite>sprites\dressLegs</sprite>
+      <sprite>sprites\flippersLegs</sprite>
+      <sprite>sprites\floorELegs</sprite>
+      <sprite>sprites\goatLegs</sprite>
+      <sprite>sprites\jetBootsLegs</sprite>
+      <sprite>sprites\warLegs</sprite>
+      <sprite>sprites\teddyLegs</sprite>
+      <sprite>sprites\trexLegs</sprite>
+      <sprite>sprites\whiteKnightLegs</sprite>
+    </sprites>
+    <sprites name="leftarms">
+      <sprite>sprites\alienLarm</sprite>
+      <sprite>sprites\bionicLarm</sprite>
+      <sprite>sprites\clawLarm</sprite>
+      <sprite>sprites\gunLarm</sprite>
+      <sprite>sprites\hoofLarm</sprite>
+      <sprite>sprites\bicepLarm</sprite>
+      <sprite>sprites\teddyLarm</sprite>
+      <sprite>sprites\tentacleLarm</sprite>
+      <sprite>sprites\tRexLarm</sprite>
+      <sprite>sprites\whiteKnightLarm</sprite>
+    </sprites>
+    <sprites name="rightarms">
+      <sprite>sprites\alienRarm</sprite>
+      <sprite>sprites\bionicRarm</sprite>
+      <sprite>sprites\robotGunRarm</sprite>
+      <sprite>sprites\gunRarm</sprite>
+      <sprite>sprites\hoofRarm</sprite>
+      <sprite>sprites\bicepRarm</sprite>
+      <sprite>sprites\teddyRarm</sprite>
+      <sprite>sprites\tentacleRarm</sprite>
+      <sprite>sprites\tRexRarm</sprite>
+      <sprite>sprites\whiteKnightRarm</sprite>
+    </sprites>
+    <sprites name="torsos">
+      <sprite>sprites\robotTorso</sprite>
+      <sprite>sprites\alienTorso</sprite>
+      <sprite>sprites\cowTorso</sprite>
+      <sprite>sprites\sixPackTorso</sprite>
+      <sprite>sprites\spaceTorso</sprite>
+      <sprite>sprites\teddyTorso</sprite>
+      <sprite>sprites\tRexTorso</sprite>
+      <sprite>sprites\whiteKnightTorso</sprite>
+      <sprite>sprites\wizardTorso</sprite>
+      <sprite>sprites\warTorso</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
@@ -96,6 +156,66 @@
     <object>objects\obj_background</object>
     <object>objects\obj_tmp1</object>
     <object>objects\obj_allToys</object>
+    <objects name="heads">
+      <object>objects\obj_alienHead</object>
+      <object>objects\obj_cowboyHead</object>
+      <object>objects\obj_robobrainHead</object>
+      <object>objects\obj_sharkHead</object>
+      <object>objects\obj_soldierHead</object>
+      <object>objects\obj_teddyHead</object>
+      <object>objects\obj_trexHead</object>
+      <object>objects\obj_unicornHead</object>
+      <object>objects\obj_whiteKnightHead</object>
+      <object>objects\obj_wizardHead</object>
+    </objects>
+    <objects name="torsos">
+      <object>objects\obj_robotTorso</object>
+      <object>objects\obj_alienTorso</object>
+      <object>objects\obj_cowTorso</object>
+      <object>objects\obj_sixPackTorso</object>
+      <object>objects\obj_spaceTorso</object>
+      <object>objects\obj_teddyTorso</object>
+      <object>objects\obj_trexTorso</object>
+      <object>objects\obj_whiteKnightTorso</object>
+      <object>objects\obj_wizardTorso</object>
+      <object>objects\obj_warTorso</object>
+    </objects>
+    <objects name="legs">
+      <object>objects\obj_cowboyLegs</object>
+      <object>objects\obj_dressLegs</object>
+      <object>objects\obj_flipperLegs</object>
+      <object>objects\obj_flooreLegs</object>
+      <object>objects\obj_goatLegs</object>
+      <object>objects\obj_jetBootsLegs</object>
+      <object>objects\obj_warLegs</object>
+      <object>objects\obj_teddyLegs</object>
+      <object>objects\obj_trexLegs</object>
+      <object>objects\obj_whiteKnightLegs</object>
+    </objects>
+    <objects name="rightarms">
+      <object>objects\obj_alienRarm</object>
+      <object>objects\obj_bionicRarm</object>
+      <object>objects\obj_robotGunRarm</object>
+      <object>objects\obj_gunRarm</object>
+      <object>objects\obj_hoofRarm</object>
+      <object>objects\obj_bicepRarm</object>
+      <object>objects\obj_teddyRarm</object>
+      <object>objects\obj_tentacleRarm</object>
+      <object>objects\obj_trexRarm</object>
+      <object>objects\obj_whiteKnightRarm</object>
+    </objects>
+    <objects name="leftarms">
+      <object>objects\obj_alienLarm</object>
+      <object>objects\obj_bionicLarm</object>
+      <object>objects\obj_clawLarm</object>
+      <object>objects\obj_gunLarm</object>
+      <object>objects\obj_hoofLarm</object>
+      <object>objects\obj_bicepLarm</object>
+      <object>objects\obj_teddyLarm</object>
+      <object>objects\obj_tentacleLarm</object>
+      <object>objects\obj_trexLarm</object>
+      <object>objects\obj_whiteKnightLarm</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>
