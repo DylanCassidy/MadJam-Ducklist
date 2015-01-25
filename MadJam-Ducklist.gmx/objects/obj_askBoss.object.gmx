@@ -37,7 +37,7 @@ while(checked =0){
         checked = 1
     }
 }
-show_message(global.bossCount); 
+
 if(global.bossCount = 1){
     instance_create(x,y-70,obj_bossText1);
 }
