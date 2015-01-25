@@ -63,7 +63,7 @@ global.headList[| 9] = obj_wizardHead;
 
 for (i=0; i&lt;50; i++){
     with(global.allToysList[| i]){
-        if(global.allToysList[| i].x &lt; 550){
+        if(x &lt; 550){
             instance_destroy();
         }
     }
