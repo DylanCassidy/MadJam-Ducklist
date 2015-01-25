@@ -25,13 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>checked = 0
+            <string>global.ifBoss = 0
+
+checked = 0
 while(checked =0){
-    current = irandom(10)
+    current = irandom(5)
     if(current = 0){ 
     }
-    else if(ds_list_find_index(global.usedList,current) = -1){
-        global.bossCount = current
+    else if(ds_list_find_index(global.usedMark,current) = -1){
+        global.markCount = current
         checked = 1
     }
 }

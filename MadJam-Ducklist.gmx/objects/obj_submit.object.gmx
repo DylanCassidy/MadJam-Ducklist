@@ -50,7 +50,7 @@ if(global.ifBoss = 1){
         }
        global.ifBoss = 0
 }
-else { 
+else if (global.ifBoss = 1) { 
     if (global.turnScore &gt;= 16){ 
         global.totalScore += 20
     }
@@ -62,13 +62,25 @@ else {
     }
     else if (global.turnScore &gt;= 10 &amp;&amp; global.turnScore &lt;= 11){ 
         //score doesn't change here
-        global.totalScore += -10
     } 
     else if (global.totalScore &lt;= 9) {
-        global.totalScore += -10
+        global.totalScore +=-10
     }
 }
 global.turnScore = 0
+global.turnCount += 1
+
+
+if(global.turnCount &gt; 5){
+      if (obj_greenbar = 1){ 
+        show_message("You win!! You are the ultimate toymaker");
+        room_goto(rm_creditscreen);
+         }
+    else{
+        show_message("You lose!! You couldn't save the company in time!");
+        }
+}
+else{
 if(global.bossCount = 1){
     with(obj_bossText1){
         instance_destroy()
@@ -127,6 +139,7 @@ else {
     else{
         show_message("You lose!! You couldn't save the company in time!");
         }
+}
 }
 instance_create(x,y,obj_askBoss); 
 instance_create(x+100,y,obj_askMark);
