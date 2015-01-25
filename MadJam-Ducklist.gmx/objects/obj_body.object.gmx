@@ -89,8 +89,8 @@ else if ((deleted == 1) &amp;&amp; (point_distance(x, y, obj_bodybutton.x, obj_b
         selected = false;
         // Middle
         if ((x &gt;= 830) &amp;&amp; (x &lt;= 1070) &amp;&amp; (y &gt;= 346) &amp;&amp; (y &lt;= 586)) {
-            x = 950;
-            y = 466;
+            x = 830;
+            y = 346;
         }
         // BAD
         else {
