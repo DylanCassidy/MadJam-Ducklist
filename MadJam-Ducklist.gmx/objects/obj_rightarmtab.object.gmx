@@ -26,16 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>global.rightarmList = ds_list_create();
-global.rightarmList[| 0] = obj_trexRarm;
-global.rightarmList[| 1] = obj_tentacleRarm;
-global.rightarmList[| 2] = obj_teddyRarm;
-global.rightarmList[| 3] = obj_bicepRarm;
-global.rightarmList[| 4] = obj_gunRarm;
-global.rightarmList[| 5] = obj_hoofRarm;
-global.rightarmList[| 6] = obj_bionicRarm;
-global.rightarmList[| 7] = obj_whiteKnightRarm;
-global.rightarmList[| 8] = obj_robotGunRarm;
-global.rightarmList[| 9] = obj_alienRarm;
+global.rightarmList[| 0] = bobj_trexRarm;
+global.rightarmList[| 1] = bobj_tentacleRarm;
+global.rightarmList[| 2] = bobj_teddyRarm;
+global.rightarmList[| 3] = bobj_bicepRarm;
+global.rightarmList[| 4] = bobj_gunRarm;
+global.rightarmList[| 5] = bobj_hoofRarm;
+global.rightarmList[| 6] = bobj_bionicRarm;
+global.rightarmList[| 7] = bobj_whiteKnightRarm;
+global.rightarmList[| 8] = bobj_robotGunRarm;
+global.rightarmList[| 9] = bobj_alienRarm;
 </string>
           </argument>
         </arguments>

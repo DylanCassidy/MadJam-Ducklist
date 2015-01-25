@@ -26,16 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>global.torsoList = ds_list_create();
-global.torsoList[| 0] = obj_spaceTorso;
-global.torsoList[| 1] = obj_cowTorso;
-global.torsoList[| 2] = obj_warTorso;
-global.torsoList[| 3] = obj_teddyTorso;
-global.torsoList[| 4] = obj_trexTorso;
-global.torsoList[| 5] = obj_sixPackTorso;
-global.torsoList[| 6] = obj_robotTorso;
-global.torsoList[| 7] = obj_wizardTorso;
-global.torsoList[| 8] = obj_alienTorso;
-global.torsoList[| 9] = obj_whiteKnightTorso;
+global.torsoList[| 0] = bobj_spaceTorso;
+global.torsoList[| 1] = bobj_cowTorso;
+global.torsoList[| 2] = bobj_warTorso;
+global.torsoList[| 3] = bobj_teddyTorso;
+global.torsoList[| 4] = bobj_trexTorso;
+global.torsoList[| 5] = bobj_sixPackTorso;
+global.torsoList[| 6] = bobj_robotTorso;
+global.torsoList[| 7] = bobj_wizardTorso;
+global.torsoList[| 8] = bobj_alienTorso;
+global.torsoList[| 9] = bobj_whiteKnightTorso;
 </string>
           </argument>
         </arguments>
