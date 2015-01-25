@@ -28,7 +28,7 @@
             <string>//This is for adding texts from the boss
 ds_list_add(global.usedList, global.bossCount)
 ds_list_add(global.usedMark, global.markCount)
-
+instance_create(x,y,obj_scoreCounter); 
 if(global.ifBoss = 1){ 
      if(global.turnScore &gt;= 26){
           global.totalScore +=35
@@ -80,7 +80,7 @@ else if (global.ifBoss = 0) {
 }
 global.turnScore = 0
 global.turnCount += 1
-
+instance_create(x,y-40,obj_comment); 
 
 if(global.turnCount &gt; 5){
       if (obj_greenbar = 1){ 
