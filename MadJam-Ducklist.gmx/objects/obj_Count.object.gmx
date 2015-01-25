@@ -34,6 +34,12 @@ global.usedList= ds_list_create();
 global.usedMark = ds_list_create();
 global.turnCount = 0
 global.comment = "You are doing great!"
+global.fantasy = 0
+global.historical = 0 
+global.sciFi = 0
+global.animal = 0 
+global.cute = 0
+global.action = 0
 </string>
           </argument>
         </arguments>
