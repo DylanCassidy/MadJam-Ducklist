@@ -25,10 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_white)
-draw_set_font(clockFont)
-draw_text(x,y,"HELLO")
-draw_text(x+20,y,"hi")
+            <string>global.comment = 1
+draw_set_color(c_black)
+draw_set_font(textFont)
+draw_text(x,y+20, "You have recieved a text from one # of your coworkers:")
+draw_text(x,y+40,global.comment)
 
 </string>
           </argument>
