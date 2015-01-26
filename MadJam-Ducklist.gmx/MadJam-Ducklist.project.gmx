@@ -6,6 +6,9 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\mainTheme</sound>
+    <sound>sound\buttonClick</sound>
+    <sound>sound\placement</sound>
+    <sound>sound\cellphone</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_head</sprite>
@@ -310,6 +313,7 @@
       <object>objects\obj_whiteKnightLarm</object>
       <object>objects\bobj_whiteKnightLarm</object>
     </objects>
+    <object>objects\obj_scoreCounter</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>

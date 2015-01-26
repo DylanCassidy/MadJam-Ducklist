@@ -81,7 +81,7 @@ global.action = 0
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>mainTheme</sound>
           </argument>
           <argument>
             <kind>3</kind>

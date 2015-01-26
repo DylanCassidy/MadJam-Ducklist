@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.ifBoss = 0){ 
+            <string>
+if (global.ifBoss = 0){ 
     if(global.bossCount = 1){ 
         global.turnScore = global.fantasy+ global.action + global.cute 
     }
