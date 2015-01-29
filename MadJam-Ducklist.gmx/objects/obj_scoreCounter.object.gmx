@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>
-if (global.ifBoss = 0){ 
+if (global.ifBoss = 1){ 
     if(global.bossCount = 1){ 
         global.turnScore = global.fantasy+ global.action + global.cute 
     }
@@ -43,7 +43,7 @@ if (global.ifBoss = 0){
         global.turnScore = global.action + global.sciFi
     }
 }
-else if(global.ifBoss = 1){ 
+else if(global.ifBoss = 0){ 
     if(global.markCount = 1){ 
         global.turnScore = global.sciFi + global.historical
     } 
@@ -74,81 +74,8 @@ else if(global.ifBoss = 1){
     else if (global.markCount = 10){ 
         global.turnScore = global.historical + global.action 
     }
-    show_message(global.turnScore)
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>
-if (global.ifBoss = 0){ 
-    if(global.bossCount = 1){ 
-        global.turnScore = global.fantasy+ global.action + global.cute 
-    }
-    else if (global.bossCount = 2) {
-        global.turnScore  = global.sciFi + global.historical + global.action
-    }
-    else if (global.bossCount = 3){ 
-        global.turnScore = global.animal + global.sciFi + global.cute
-       }
-    else if (global.bossCount = 4) { 
-        global.turnScore = global.fantasy + global.action + global.historical
-        }
-    else if (global.bossCount = 5){
-        global.turnScore = global.action + global.sciFi
-    }
-}
-else if(global.ifBoss = 1){ 
-    if(global.markCount = 1){ 
-        global.turnScore = global.sciFi + global.historical
-    } 
-    else if (global.markCount = 2){
-        global.turnScore = global.cute + global.animal
-    }
-    else if (global.markCount = 3){
-        global.turnScore = global.fantasy + global.action 
-    }
-    else if (global.markCount = 4){ 
-        global.turnScore = global.fantasy + global.animal 
-    } 
-    else if (global.markCount = 5) { 
-        global.turnScore = global.action + global.animal
-    } 
-    else if (global.markCount = 6) { 
-        global.turnScore = global.sciFi + global.action
-    }
-    else if (global.markCount = 7) { 
-        global.turnScore = global.sciFi + global.fantasy
-    }
-    else if (global.markCount = 8) {
-        global.turnScore = global.animal + global.sciFi
-    }
-    else if (global.markCount = 9) { 
-        global.turnScore = global.sciFi + global.cute
-    } 
-    else if (global.markCount = 10){ 
-        global.turnScore = global.historical + global.action 
-    }
-    show_message(global.turnScore)
-}
+
 </string>
           </argument>
         </arguments>
