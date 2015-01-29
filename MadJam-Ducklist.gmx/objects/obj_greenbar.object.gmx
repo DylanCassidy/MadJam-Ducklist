@@ -82,9 +82,17 @@
             <kind>1</kind>
             <string>if(image_xscale &lt;=0){
            show_message("You lose, mwahaha. bla bla Your company is bankrupt.");
+           room_goto ( rm_creditscreen)
+           with(obj_clock){ 
+            instance_destroy()
+            }
        }
 else if(image_xscale &gt;= 1.0){
            show_message("You win! Your company is a worldwide success!!!"); 
+           room_goto ( rm_creditscreen)
+            with(obj_clock){ 
+            instance_destroy()
+            }
        }
 else if (updatedScore &lt; global.totalScore){
         diff = global.totalScore- updatedScore

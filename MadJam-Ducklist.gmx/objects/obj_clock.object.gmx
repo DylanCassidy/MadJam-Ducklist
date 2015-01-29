@@ -288,9 +288,13 @@ if(hour2 = 5){
     if (obj_greenbar = 1){ 
         show_message("You win!! You are the ultimate toymaker");
         room_goto(rm_creditscreen);
+        instance_destroy()
          }
     else{
         show_message("You lose!! You couldn't save the company in time!");
+        room_goto ( rm_creditscreen)
+        instance_destroy()
+        
         }
 }
     
