@@ -29,7 +29,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>"Kawaii robots will easily capture the Japanese market."</string>
+            <string>"Kawaii robots will easily capture# the Japanese market."</string>
           </argument>
         </arguments>
       </action>

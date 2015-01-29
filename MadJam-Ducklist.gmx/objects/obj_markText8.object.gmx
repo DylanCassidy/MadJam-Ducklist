@@ -29,7 +29,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>"Animals with metal parts can't go wrong"</string>
+            <string>"Animals with metal parts can't go# wrong"</string>
           </argument>
         </arguments>
       </action>

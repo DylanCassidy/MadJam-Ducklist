@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>cellphone</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -100,7 +100,7 @@ else if (global.ifBoss = 0) {
     } 
     else if (global.turnScore &lt;= 9) {
         global.totalScore +=-10
-        global.comment = "Are you stupid? That toy sucked! SUCKED, SUCKED, SUCKED!"
+        global.comment = "Are you stupid? That toy sucked!# SUCKED, SUCKED, SUCKED!"
     }
 }
 global.turnScore = 0
@@ -168,27 +168,27 @@ else if (global.markCount = 5){
     }
 }
 else if(global.markCount = 6){
-    with(obj_markText3){
+    with(obj_markText6){
         instance_destroy()
     }
 }
 else if(global.markCount = 7){
-    with(obj_markText4){
+    with(obj_markText7){
         instance_destroy()
     }
 }
 else if (global.markCount = 8){
-    with(obj_markText5){
+    with(obj_markText8){
         instance_destroy()
     }
 }
 else if(global.markCount = 9){
-    with(obj_markText3){
+    with(obj_markText9){
         instance_destroy()
     }
 }
 else if(global.markCount = 10){
-    with(obj_markText4){
+    with(obj_markText10){
         instance_destroy()
     }
 }

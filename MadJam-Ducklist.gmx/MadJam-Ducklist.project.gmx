@@ -138,7 +138,6 @@
     <object>objects\obj_headbutton</object>
     <object>objects\obj_bodybutton</object>
     <object>objects\obj_controller</object>
-    <object>objects\obj_larm</object>
     <object>objects\obj_lleg</object>
     <object>objects\obj_grid</object>
     <object>objects\obj_titlescreen</object>
@@ -146,6 +145,7 @@
     <object>objects\obj_redbar</object>
     <object>objects\obj_greenbar</object>
     <object>objects\obj_clock</object>
+    <object>objects\obj_larm</object>
     <objects name="TextObjects">
       <object>objects\obj_comment</object>
       <object>objects\obj_testText2</object>

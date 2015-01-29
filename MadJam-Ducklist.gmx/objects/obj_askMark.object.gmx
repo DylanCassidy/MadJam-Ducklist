@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>cellphone</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -53,7 +53,7 @@
 
 checked = 0
 while(checked =0){
-    current = irandom(5)
+    current = irandom(10)
     if(current = 0){ 
     }
     else if(ds_list_find_index(global.usedMark,current) = -1){
@@ -73,8 +73,23 @@ else if(global.markCount = 3){
 else if(global.markCount = 4){
   instance_create(x-90,y-70,obj_markText4);
 }
-else{
+else if(global.markCount = 5){
   instance_create(x-90,y-70,obj_markText5);
+}
+else if(global.markCount = 6){
+  instance_create(x-90,y-70,obj_markText6);
+}
+else if(global.markCount = 7){
+  instance_create(x-90,y-70,obj_markText7);
+}
+else if(global.markCount = 8){
+  instance_create(x-90,y-70,obj_markText8);
+}
+else if(global.markCount = 9){
+  instance_create(x-90,y-70,obj_markText9);
+}
+else{
+  instance_create(x-90,y-70,obj_markText10);
 }
 instance_create(x-100,y,obj_submit);  
 with(obj_askBoss){
