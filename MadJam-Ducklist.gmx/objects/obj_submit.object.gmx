@@ -51,6 +51,7 @@
             <kind>1</kind>
             <string>//This is for adding texts from the boss
 instance_create(x,y,obj_scoreCounter); 
+show_message(global.turnScore)
 ds_list_add(global.usedList, global.bossCount)
 ds_list_add(global.usedMark, global.markCount)
 
