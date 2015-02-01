@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.canSelect = false;
-instance_create(mouse_x, mouse_y, obj_head);
+            <string>//global.canSelect = false;
+//instance_create(mouse_x, mouse_y, obj_head);
 </string>
           </argument>
         </arguments>
