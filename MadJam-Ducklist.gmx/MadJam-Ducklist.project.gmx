@@ -151,13 +151,18 @@
       <sprite>sprites\cowtorsotext</sprite>
       <sprite>sprites\alientorsotext</sprite>
     </sprites>
+    <sprite>sprites\spr_phone</sprite>
+    <sprite>sprites\spr_endButton</sprite>
+    <sprite>sprites\spr_restartButton</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grid</background>
     <background>background\bg_sidebar</background>
     <background>background\bg_red</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pth_phone</path>
+  </paths>
   <fonts name="fonts">
     <font>fonts\clockFont</font>
     <font>fonts\textFont</font>
@@ -374,6 +379,9 @@
       <object>objects\obj_wklarmtext</object>
     </objects>
     <object>objects\obj_scoreCounter</object>
+    <object>objects\obj_phone</object>
+    <object>objects\obj_restartButton</object>
+    <object>objects\obj_endButton</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>
