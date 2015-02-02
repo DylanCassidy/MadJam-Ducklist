@@ -50,7 +50,7 @@ draw_text(x,y-40,"What do we do now?")
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>cellphone</sound>
+            <sound>buttonClick</sound>
           </argument>
           <argument>
             <kind>3</kind>

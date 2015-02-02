@@ -49,6 +49,30 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>day</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>hour1</string>
           </argument>
           <argument>
@@ -73,7 +97,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>amfm = "pm";
+            <string>amfm = "am";
 </string>
           </argument>
         </arguments>
@@ -449,6 +473,11 @@ if ((hour1=0) &amp;&amp; (hour2=9) &amp;&amp; (minute1=0) &amp;&amp; (minute2=1)
             <kind>1</kind>
             <string>draw_set_color(c_black)
 draw_set_font(clockFont)
+
+draw_text(850,20, "Day")
+draw_text(975,20,day)
+
+
 draw_text(x,y,hour1)
 draw_text(x+30,y,hour2)
 
