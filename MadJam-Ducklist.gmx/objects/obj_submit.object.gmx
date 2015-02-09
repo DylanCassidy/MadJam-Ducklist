@@ -226,6 +226,8 @@ instance_destroy()
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="6" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -247,7 +249,8 @@ hour2=9
 minute1=0
 minute2=0
 amfm="am"
-//day += 1
+day++;
+
 </string>
           </argument>
         </arguments>
