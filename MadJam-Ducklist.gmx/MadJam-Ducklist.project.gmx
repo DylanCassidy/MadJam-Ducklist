@@ -382,6 +382,7 @@
     <object>objects\obj_phone</object>
     <object>objects\obj_restartButton</object>
     <object>objects\obj_endButton</object>
+    <object>objects\obj_debug_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_titlescreen</room>
