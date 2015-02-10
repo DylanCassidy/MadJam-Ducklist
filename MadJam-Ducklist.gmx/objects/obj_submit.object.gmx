@@ -221,6 +221,7 @@ instance_create(x,y,obj_askBoss);
 instance_create(x+100,y,obj_askMark);
 global.ifBoss = 0
 
+// Cleans the board
 for (i=0; i&lt;50; i++){
     with(global.allOtherToysList[| i]){
         instance_destroy();
