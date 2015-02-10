@@ -26,16 +26,27 @@
           <argument>
             <kind>1</kind>
             <string>global.headList = ds_list_create();
+global.headOtherList = ds_list_create();
 global.headList[| 0] = bobj_alienHead;
+global.headOtherList[| 0] = obj_alienHead;
 global.headList[| 1] = bobj_robobrainHead;
+global.headOtherList[| 1] = obj_robobrainHead;
 global.headList[| 2] = bobj_unicornHead;
+global.headOtherList[| 2] = obj_unicornHead;
 global.headList[| 3] = bobj_soldierHead;
+global.headOtherList[| 3] = obj_soldierHead;
 global.headList[| 4] = bobj_whiteKnightHead;
+global.headOtherList[| 4] = obj_whiteKnightHead;
 global.headList[| 5] = bobj_cowboyHead;
+global.headOtherList[| 5] = obj_cowboyHead;
 global.headList[| 6] = bobj_sharkHead;
+global.headOtherList[| 6] = obj_sharkHead;
 global.headList[| 7] = bobj_teddyHead;
+global.headOtherList[| 7] = obj_teddyHead;
 global.headList[| 8] = bobj_trexHead;
+global.headOtherList[| 8] = obj_trexHead;
 global.headList[| 9] = bobj_wizardHead;
+global.headOtherList[| 9] = obj_wizardHead;
 </string>
           </argument>
         </arguments>

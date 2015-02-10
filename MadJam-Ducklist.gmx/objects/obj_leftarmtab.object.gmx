@@ -26,16 +26,27 @@
           <argument>
             <kind>1</kind>
             <string>global.leftarmList = ds_list_create();
+global.leftarmOtherList = ds_list_create();
 global.leftarmList[| 0] = bobj_alienLarm;
+global.leftarmOtherList[| 0] = obj_alienLarm;
 global.leftarmList[| 1] = bobj_trexLarm;
+global.leftarmOtherList[| 1] = obj_trexLarm;
 global.leftarmList[| 2] = bobj_tentacleLarm;
+global.leftarmOtherList[| 2] = obj_tentacleLarm;
 global.leftarmList[| 3] = bobj_teddyLarm;
+global.leftarmOtherList[| 3] = obj_teddyLarm;
 global.leftarmList[| 4] = bobj_bicepLarm;
+global.leftarmOtherList[| 4] = obj_bicepLarm;
 global.leftarmList[| 5] = bobj_gunLarm;
+global.leftarmOtherList[| 5] = obj_gunLarm;
 global.leftarmList[| 6] = bobj_hoofLarm;
+global.leftarmOtherList[| 6] = obj_hoofLarm;
 global.leftarmList[| 7] = bobj_bionicLarm;
+global.leftarmOtherList[| 7] = obj_bionicLarm;
 global.leftarmList[| 8] = bobj_whiteKnightLarm;
+global.leftarmOtherList[| 8] = obj_whiteKnightLarm;
 global.leftarmList[| 9] = bobj_clawLarm;
+global.leftarmOtherList[| 9] = obj_clawLarm;
 </string>
           </argument>
         </arguments>

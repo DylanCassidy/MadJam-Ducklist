@@ -26,20 +26,26 @@
           <argument>
             <kind>1</kind>
             <string>global.allToysList = ds_list_create();
+global.allOtherToysList = ds_list_create();
 for (i=0; i&lt;10; i++){
     ds_list_add(global.allToysList, global.headList[| i]);
+    ds_list_add(global.allOtherToysList, global.headOtherList[| i]);
 }
 for (i=0; i&lt;10; i++){
     ds_list_add(global.allToysList, global.torsoList[| i]);
+    ds_list_add(global.allOtherToysList, global.torsoOtherList[| i]);
 }
 for (i=0; i&lt;10; i++){
     ds_list_add(global.allToysList, global.legsList[| i]);
+    ds_list_add(global.allOtherToysList, global.legsOtherList[| i]);
 }
 for (i=0; i&lt;10; i++){
     ds_list_add(global.allToysList, global.rightarmList[| i]);
+    ds_list_add(global.allOtherToysList, global.rightarmOtherList[| i]);
 }
 for (i=0; i&lt;10; i++){
     ds_list_add(global.allToysList, global.leftarmList[| i]);
+    ds_list_add(global.allOtherToysList, global.leftarmOtherList[| i]);
 }
 
 </string>
